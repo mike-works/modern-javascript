@@ -1,0 +1,9 @@
+{
+  "name": "mw-modern-js",
+  "version": "0.0.1",
+  "description": "Modern JavaScript course from Mike Works, Inc.",
+  "main": "index.js",
+  "repository": "https://github.com/mike-north/modern-javascript",
+  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
+  "license": "UNLICENSED"
+}
