@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+    "allowJs": true,
+		"target": "ES2015",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true
+	},
+	"exclude": [
+		"node_modules"
+	]
+}

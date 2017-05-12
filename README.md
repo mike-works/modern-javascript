@@ -5,7 +5,7 @@
 </p>
 <p align='center'>
   <a href="https://mike.works/course/modern-javascript-437a5c3" target='_blank'>
-    <img src='https://cloud.githubusercontent.com/assets/558005/25995673/c8d86ce6-3713-11e7-8a18-9c85bcf73fc9.png' />
+    <img height=200 src='https://cloud.githubusercontent.com/assets/558005/25995673/c8d86ce6-3713-11e7-8a18-9c85bcf73fc9.png' />
   </a>
 </p> 
 
@@ -14,25 +14,25 @@ This is the example project used for the [Mike.Works](https://mike.works) [Moder
 ## What are the pieces?
 
 * [Webpack 2](https://webpack.js.org)
-* [TypeScript](https://www.typescriptlang.org) 2.3, setup for experimental decorator support
-* [TSLint](https://github.com/palantir/tslint) for linting, setup with a strict JSX-friendly set of rules
+* [Babel](http://babeljs.io/) 6.x, setup with the [stage-2](https://github.com/babel/babel/tree/7.0/packages/babel-preset-stage-2) plugins, compiling to ES5 JavaScript
+* [ESLint](https://github.com/eslint/eslint) for linting, setup with a strict set of rules derived from [Airbnb's ESLint Config](https://www.npmjs.com/package/eslint-config-airbnb)
 * [sass-loader](https://github.com/webpack-contrib/sass-loader) for traditional management of styles
-* [Preact](https://github.com/developit/preact) v8 for building components (and [preact-compat](https://github.com/developit/preact-compat) so you can use it as you would use React)
-* [Hot Loader v3](https://github.com/gaearon/react-hot-loader) so styles and JS are updated in place as you save source code
+* [extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin) so compiled styles are external stylesheets instead of inline style blocks
 
 ## How to use it
 
 ##### Start the Development Server
-
-`npm start`
+`npm start <exercise-name>`
 
 ##### Build Development Assets in the `/dist` folder
+This will be an un-minified version of an exercise, and will include some webpack-specific tooling, intended only for development use
 
-`npm run build:dev`
+`npm run build:dev <exercise-name>`
 
 ##### Build Production Assets in the `/dist` folder
+This will be an an optimized version of the exercise
 
-`npm run build:dist`
+`npm run build:dist <exercise-name>`
 
 
 # Copyright
