@@ -1,34 +1,37 @@
 {
-    "name": "mw-modern-js",
-    "version": "0.0.1",
-    "description": "Modern JavaScript course from Mike Works, Inc.",
-    "main": "index.js",
-    "scripts": {
-      "start": "node_modules/.bin/webpack-dev-server --colors --quiet --env",
-      "build:dev": "webpack --progress --profile --colors --env",
-      "build:dist": "webpack --optimize-minimize --define process.env.NODE_ENV='production' --progress --profile --colors --env "
-    },
-    "repository": "https://github.com/mike-north/modern-javascript",
-    "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
-    "license": "UNLICENSED",
-    "devDependencies": {
-        "babel-core": "^6.24.1",
-        "babel-eslint": "^7.2.3",
-        "babel-loader": "^7.0.0",
-        "babel-preset-env": "^1.4.0",
-        "babel-preset-stage-2": "^6.24.1",
-        "css-loader": "^0.28.1",
-        "eslint": "^3.19.0",
-        "eslint-loader": "^1.7.1",
-        "extract-text-webpack-plugin": "^2.1.0",
-        "node-sass": "^4.5.2",
-        "sass-loader": "^6.0.5",
-        "style-loader": "^0.17.0",
-        "webpack": "^2.5.1",
-        "webpack-dev-middleware": "^1.10.2",
-        "webpack-dev-server": "^2.4.5"
-    },
-    "dependencies": {
-        "babel-polyfill": "^6.23.0"
-    }
+  "name": "mw-modern-js",
+  "version": "0.0.1",
+  "description": "Modern JavaScript course from Mike Works, Inc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node_modules/.bin/webpack-dev-server --colors --quiet --env",
+    "build:dev": "webpack --progress --profile --colors --env",
+    "build:dist": "webpack --optimize-minimize --define process.env.NODE_ENV='production' --progress --profile --colors --env "
+  },
+  "repository": "https://github.com/mike-north/modern-javascript",
+  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/jest": "^19.2.3",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "jest": "^20.0.1",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0"
+  }
 }
