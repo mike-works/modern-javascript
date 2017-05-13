@@ -18,6 +18,7 @@ This is the example project used for the [Mike.Works](https://mike.works) [Moder
 * [ESLint](https://github.com/eslint/eslint) for linting, setup with a strict set of rules derived from [Airbnb's ESLint Config](https://www.npmjs.com/package/eslint-config-airbnb)
 * [sass-loader](https://github.com/webpack-contrib/sass-loader) for traditional management of styles
 * [extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin) so compiled styles are external stylesheets instead of inline style blocks
+* [Jest](http://facebook.github.io/jest/) as a testing platform
 
 ## How to use it
 

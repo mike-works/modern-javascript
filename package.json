@@ -4,6 +4,7 @@
   "description": "Modern JavaScript course from Mike Works, Inc.",
   "main": "index.js",
   "scripts": {
+    "clean": "rimraf dist",
     "test": "jest",
     "start": "node_modules/.bin/webpack-dev-server --colors --quiet --env",
     "build:dev": "webpack --progress --profile --colors --env",
