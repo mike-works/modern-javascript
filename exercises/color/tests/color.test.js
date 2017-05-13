@@ -1,4 +1,4 @@
-import { color } from '../src/color.js';
+import { color } from '../src/index.js';
 
 test('color.r, color.g and color.b properties should all be numbers', () => {
   expect(typeof color.r).toBe('number');
