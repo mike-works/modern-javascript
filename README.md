@@ -35,7 +35,7 @@ This will be an an optimized version of the exercise
 
 `npm run build:dist <exercise-name>`
 
-# The Exercise Folder
+## The Exercise Folder
 Exercises are standalone mini-projects with the following folder structure.
 ```sh
 index.html   # HTML served for exercise
@@ -47,6 +47,8 @@ index.html   # HTML served for exercise
    ⌙ myfile.test.js # Tests must have *.test.js
 ```
 
+## Global stuff
+Global styles can be placed in `public/styles/app.scss`. These are available across all examples
 
 # License
 While the general license for this project is the BSD 3-clause, the exercises

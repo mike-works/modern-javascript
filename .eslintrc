@@ -14,12 +14,12 @@
   "parser": "babel-eslint", // https://github.com/babel/babel-eslint
   "rules": {
     /**
-         * Strict mode
-         */
+      * Strict mode
+      */
     "strict": 0, // http://eslint.org/docs/rules/strict
     /**
-         * Variables
-         */
+      * Variables
+      */
     "no-shadow": 2, // http://eslint.org/docs/rules/no-shadow
     "no-shadow-restricted-names": 2, // http://eslint.org/docs/rules/no-shadow-restricted-names
     "no-unused-vars": [
@@ -30,8 +30,8 @@
       }
     ],
     /**
-         * Possible errors
-         */
+      * Possible errors
+      */
     "comma-dangle": [
       2,
       "never"
@@ -65,8 +65,8 @@
     "valid-jsdoc": 2, // http://eslint.org/docs/rules/valid-jsdoc
     "valid-typeof": 2, // http://eslint.org/docs/rules/valid-typeof
     /**
-         * Best practices
-         */
+      * Best practices
+      */
     "consistent-return": 2, // http://eslint.org/docs/rules/consistent-return
     "curly": [
       2,
@@ -180,6 +180,7 @@
         "max": 2
       }
     ],
+    "no-var": "warn",
     "no-nested-ternary": 2, // http://eslint.org/docs/rules/no-nested-ternary
     "no-new-object": 2, // http://eslint.org/docs/rules/no-new-object
     "no-spaced-func": 2, // http://eslint.org/docs/rules/no-spaced-func
