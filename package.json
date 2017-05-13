@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "test": "jest",
+    "test": "jest --watch",
     "start": "node_modules/.bin/webpack-dev-server --colors --quiet --env",
     "build:dev": "webpack --progress --profile --colors --env",
     "build:dist": "webpack --optimize-minimize --define process.env.NODE_ENV='production' --progress --profile --colors --env "
