@@ -37,14 +37,14 @@ This will be an an optimized version of the exercise
 
 # The Exercise Folder
 Exercises are standalone mini-projects with the following folder structure.
-```
-index.html - HTML served for exercise
-./src - Scripts (js and jsx)
-   ⌙ index.js - Entry point for the mini-project
-./styles - Styles
-   ⌙ app.scss - (optional) Entry point for styles
-./tests - Tests
-   ⌙ myfile.test.js - Tests must have *.test.js
+```sh
+index.html   # HTML served for exercise
+./src        # Scripts (js and jsx)
+   ⌙ index.js -     # Entry point for the mini-project
+./styles     # Styles
+   ⌙ app.scss       #  (optional) Entry point for styles
+./tests      # Tests
+   ⌙ myfile.test.js # Tests must have *.test.js
 ```
 
 
