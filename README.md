@@ -11,7 +11,7 @@
 
 This is the example project used for the [Mike.Works](https://mike.works) [Modern JavaScript](https://mike.works/course/modern-javascript-437a5c3) course.
 
-## What are the pieces?
+# What are the pieces?
 
 * [Webpack 2](https://webpack.js.org)
 * [Babel](http://babeljs.io/) 6.x, setup with the [stage-2](https://github.com/babel/babel/tree/7.0/packages/babel-preset-stage-2) plugins, compiling to ES5 JavaScript
@@ -20,7 +20,7 @@ This is the example project used for the [Mike.Works](https://mike.works) [Moder
 * [extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin) so compiled styles are external stylesheets instead of inline style blocks
 * [Jest](http://facebook.github.io/jest/) as a testing platform
 
-## How to use it
+# How to use it
 
 ##### Start the Development Server
 `npm start <exercise-name>`
@@ -34,6 +34,29 @@ This will be an un-minified version of an exercise, and will include some webpac
 This will be an an optimized version of the exercise
 
 `npm run build:dist <exercise-name>`
+
+# License
+While the general license for this project is the BSD 3-clause, the exercises
+themselves are proprietary and are licensed on a per-individual basis, usually
+as a result of purchasing a ticket to a public workshop, or being a participant
+in a private training.
+
+Here are some guidelines for things that are **OK** and **NOT OK**, based on our
+understanding of how these licenses work:
+
+### OK
+* Using everything in this project other than the exercises (or accompanying tests) 
+to build a project used for your own free or commercial training material
+* Copying code from build scripts, configuration files, tests and development 
+harnesses that are not part of the exercises specifically, for your own projects
+* As an owner of an individual license, using code from tests, exercises, or
+exercise solutions for your own non-training-related project.
+
+### NOT OK (without express written consent)
+* Using this project, or any subset of 
+exercises contained within this project to run your own workshops
+* Writing a book that uses the code for these exercises
+* Recording a screencast that contains one or more of this project's exercises 
 
 
 # Copyright
