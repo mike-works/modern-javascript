@@ -1,10 +1,10 @@
 const path = require('path');
 
-const plugins = require('./config/plugins');
-const entries = require('./config/entries');
-const resolve = require('./config/resolve');
-const mod = require('./config/module');
-const exercises = require('./config/exercises');
+const plugins = require('./webpack/plugins');
+const entries = require('./webpack/entries');
+const resolve = require('./webpack/resolve');
+const mod = require('./webpack/module');
+const exercises = require('./webpack/exercises');
 
 module.exports = function webpackConfig(env) {
   const EXERCISE_PATH = exercises.exercisePath(env);

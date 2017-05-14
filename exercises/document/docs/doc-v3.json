@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "data": {
+    "id": 314,
+    "name": "Michael L. North",
+    "firstName": "Michael",
+    "lastName": "North",
+    "email": "nobody@example.com"
+  }
+}
