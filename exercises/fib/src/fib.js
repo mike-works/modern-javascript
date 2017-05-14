@@ -7,5 +7,6 @@
  */
 
 export function getFibSequence(length) {
+  // TODO: replace this with your implementation
   return [];
 }

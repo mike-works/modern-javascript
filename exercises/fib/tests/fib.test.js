@@ -37,6 +37,9 @@ describe('fib.js#getFibSequence handles invalid input robustly', () => {
   test('getFibSequence() -> undefined', () => {
     expect(typeof fib.getFibSequence()).toBe('undefined');
   });
+  test('getFibSequence(null) -> undefined', () => {
+    expect(typeof fib.getFibSequence(null)).toBe('undefined');
+  });
   test('getFibSequence("3") -> [1, 1, 2]', () => {
     expect(fib.getFibSequence('3')).toMatchObject([1, 1, 2]);
   });
