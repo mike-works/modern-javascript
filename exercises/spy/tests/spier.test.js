@@ -43,8 +43,11 @@ describe('Installation of a spy works', () => {
     expect(o.a === f).toBe(false);
   });
 
-  test('with a "spy" installed, functions still return the same values', () => {
+  test('"spy" has a count property, that initially starts at 0', () => {
     expect(o.a.count).toBe(0);
+  });
+
+  test('with a "spy" installed, functions still return the same values', () => {
     expect(o.a(2)).toBe(125);
   });
 
