@@ -5,13 +5,23 @@
 </p>
 <p align='center'>
   <a href="https://mike.works/course/modern-javascript-437a5c3" target='_blank'>
-    <img height=200 src='https://cloud.githubusercontent.com/assets/558005/25995673/c8d86ce6-3713-11e7-8a18-9c85bcf73fc9.png' />
+    <img height=150 src='https://cloud.githubusercontent.com/assets/558005/25995673/c8d86ce6-3713-11e7-8a18-9c85bcf73fc9.png' />
   </a>
-</p> 
-
-This is the example project used for the [Mike.Works](https://mike.works) [Modern JavaScript](https://mike.works/course/modern-javascript-437a5c3) course.
-
-[![Build Status](https://travis-ci.org/mike-north/modern-javascript.svg?branch=solutions)](https://travis-ci.org/mike-north/modern-javascript)
+</p>
+<p align='center'>
+  <a href="https://travis-ci.org/mike-north/modern-javascript" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-north/modern-javascript.svg?branch=solutions"/>
+  </a>
+  <a href="https://mike.works/course/modern-javascript-437a5c3" title="Modern JavaScript">
+    <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
+  </a>
+  <a href="https://bit.ly/modern-js" title="Slides">
+    <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
+  </a>
+</p>
+<p align='center'>
+This is the example project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Modern JavaScript" src="https://mike.works/course/modern-javascript-437a5c3">Modern JavaScript</a> course.
+</p>
 
 # What are the pieces?
 
