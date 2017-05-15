@@ -5,7 +5,11 @@ describe('cashier.js exports are correct', () => {
   test('cashier function export is found', () => {
     expect(typeof module.cashier).toBe('function');
   });
-  test('cashier is not a constructor', () => {
+  test('cashier returns an object', () => {
+    let x = new module.cashier(); //eslint-disable-line
+    expect(typeof x).toBe('object');
+  });
+  test('cashier returns an object, but is not a constructor', () => {
     let x = new module.cashier(); //eslint-disable-line
     //eslint-disable-next-line
     expect(x.constructor == module.cashier.prototype.constructor).toBe(false);
@@ -17,14 +21,14 @@ describe('cashier.js exports are correct', () => {
 
 describe('adding each item, increases length as appropriate', () => {
   let c = module.cashier();
-  test('length is initially zero', () => {
+  test('cart.length is initially zero', () => {
     expect(c.length).toBe(0);
   });
-  test('length is 2 after 2 grapes', () => {
+  test('length is 2 after cart.add({name: "Grapes", price: 1.12, qty: 2});', () => {
     c.add({name: 'Grapes', price: 1.12, qty: 2});
     expect(c.length).toBe(2);
   });
-  test('length is 7 after adding 5 pears', () => {
+  test('length is 7 after cart.add({name: "Pears", price: 3.51, qty: 5});', () => {
     c.add({name: 'Pears', price: 3.51, qty: 5});
     expect(c.length).toBe(7);
   });
