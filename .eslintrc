@@ -11,6 +11,7 @@
     "afterEach": true
   },
   "env": { // http://eslint.org/docs/user-guide/configuring.html#specifying-environments
+    "es6": true,
     "browser": true, // browser global variables
     "node": true // Node.js global variables and Node.js-specific rules
   },
