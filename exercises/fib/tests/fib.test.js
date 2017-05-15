@@ -33,7 +33,7 @@ describe('fib.js#getFibSequence basic cases', () => {
   });
 });
 
-describe('fib.js#getFibSequence handles invalid input robustly', () => {
+describe('fib.js#getFibSequence handles non-numeric and negative input robustly', () => {
   test('getFibSequence() -> undefined', () => {
     expect(typeof fib.getFibSequence()).toBe('undefined');
   });
@@ -42,6 +42,9 @@ describe('fib.js#getFibSequence handles invalid input robustly', () => {
   });
   test('getFibSequence("3") -> [1, 1, 2]', () => {
     expect(fib.getFibSequence('3')).toMatchObject([1, 1, 2]);
+  });
+  test('getFibSequence("13") -> [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]', () => {
+    expect(fib.getFibSequence('13')).toMatchObject([1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233]);
   });
   test('getFibSequence(-3) -> undefined', () => {
     expect(typeof fib.getFibSequence(-3)).toBe('undefined');
