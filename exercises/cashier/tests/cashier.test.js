@@ -32,19 +32,6 @@ describe('structure of object returned by cashier function is correct', () => {
   });
 });
 
-describe('structure of object returned by cashier function is correct', () => {
-  let x = new module.cashier(); //eslint-disable-line
-  test('cashier().add() function is found', () => {
-    expect(typeof x.add).toBe('function');
-  });
-  test('cashier().length property is found', () => {
-    expect(typeof x.length).toBe('number');
-  });
-  test('cashier().total property is found', () => {
-    expect(typeof x.total).toBe('number');
-  });
-});
-
 describe('adding each item, increases length as appropriate', () => {
   let c = module.cashier();
   test('cart.length is initially zero', () => {
