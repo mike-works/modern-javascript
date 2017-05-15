@@ -11,7 +11,7 @@
 
 This is the example project used for the [Mike.Works](https://mike.works) [Modern JavaScript](https://mike.works/course/modern-javascript-437a5c3) course.
 
-[![Build Status](https://travis-ci.org/mike-north/modern-javascript.svg?branch=master)](https://travis-ci.org/mike-north/modern-javascript)
+[![Build Status](https://travis-ci.org/mike-north/modern-javascript.svg?branch=solutions)](https://travis-ci.org/mike-north/modern-javascript)
 
 # What are the pieces?
 
