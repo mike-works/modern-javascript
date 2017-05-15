@@ -6,7 +6,11 @@
  * @param {function} func function to invoke
  * @return {null} nothing
  */
-export function forEach(array, func) {}
+export function forEach(array, func) {
+  for (let i = 0; i < array.length; i++) {
+    func(array[i]);
+  }
+}
 
 /**
  * Create a transformed copy of an array, where
@@ -17,7 +21,13 @@ export function forEach(array, func) {}
  * @param {function} func transformation function
  * @return {array} transformed items
  */
-export function map(array, func) {}
+export function map(array, func) {
+  let transformed = [];
+  for (let i = 0; i < array.length; i++) {
+    transformed.push(func(array[i]));
+  }
+  return transformed;
+}
 
 /**
  * Create a filtered array, given an original array and
@@ -30,7 +40,13 @@ export function map(array, func) {}
  * @param {function} func filtering function
  * @return {array} filtered array
  */
-export function filter(array, func) {}
+export function filter(array, func) {
+  let filtered = [];
+  for (let i = 0; i < array.length; i++) {
+    if (func(array[i])) filtered.push(array[i]);
+  }
+  return filtered;
+}
 
 /**
  * Generate a singular value by iterating over an array.
@@ -42,4 +58,10 @@ export function filter(array, func) {}
  * @param {any} initialVal initial value of accumulator
  * @return {any} ultimate value of the accumulator
  */
-export function reduce(array, reducer, initialVal) {}
+export function reduce(array, reducer, initialVal) {
+  let x = initialVal;
+  for (let i = 0; i < array.length; i++) {
+    x = reducer(x, array[i]);
+  }
+  return x;
+}
