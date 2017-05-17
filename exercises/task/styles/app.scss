@@ -1,0 +1,15 @@
+* {
+  font-family: sans-serif;
+}
+
+#root {
+  width: 75%;
+  margin: auto;
+}
+.results {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+  }
+}
