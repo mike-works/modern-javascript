@@ -1,10 +1,8 @@
-// No changes necessary for this exercise
-// import * as autocomplete from './autocomplete';
-// import React, { Component } from 'react';
-// import * as React from 'react';
-// import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { PlaceSearch } from './PlaceSearch';
 
+/**
+ * Render the <PlaceSearch> component into the #root element
+ */
 const root = document.getElementById('root');
 render(<PlaceSearch />, root);

@@ -8,16 +8,31 @@ import { isPromise } from './utils';
  * @return {undefined}
  */
 export function task(genFn) {
-  let iterator = genFn();
-  keepGoing();
-  function keepGoing() {
-    let yielded = iterator.next.apply(iterator, arguments);
-    if (isPromise(yielded.value)) {
-      yielded.value.then((d) => {
-        keepGoing(d);
-      });
-    } else if (!yielded.done) {
-      keepGoing(yielded.value);
+  let cancelled = false;
+  let p = new Promise((resolve) => {
+    let iterator = genFn();
+    let lastValue = null;
+    keepGoing();
+    function keepGoing() {
+      if (cancelled) return;
+      let yielded = iterator.next.apply(iterator, arguments);
+      if (isPromise(yielded.value)) {
+        yielded.value.then(d => {
+          lastValue = yielded.value;
+          keepGoing(d);
+        });
+      } else if (!yielded.done) {
+        lastValue = yielded.value;
+        keepGoing(yielded.value);
+      } else {
+        p.finished = true;
+        resolve(lastValue);
+      }
     }
-  }
+  });
+  p.finished = false;
+  p.cancel = () => {
+    cancelled = true;
+  };
+  return p;
 }

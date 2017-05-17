@@ -138,12 +138,6 @@
       "single",
       "avoid-escape"
     ],
-    "camelcase": [
-      2,
-      { // http://eslint.org/docs/rules/camelcase
-        "properties": "never"
-      }
-    ],
     "comma-spacing": [
       2,
       { // http://eslint.org/docs/rules/comma-spacing

@@ -1,25 +1,21 @@
 import { task } from './task';
-import { query, wait } from './utils';
-
+import { placesQuery, detailsFromPlaceIds, wait } from './utils';
 
 export function autocomplete(term) {
-  let cancelled = false;
-  let p = new Promise((resolve) => {
-    task(function* searchForPlace() {
-      yield wait(1000);
-      if (!cancelled) {
-        console.log(`⏳ Beginning search for ${term}`);
-        let results = yield query(term);
-        console.log(`✅ Completed search for ${term}`);
-        resolve(results);
-        p.resolved = true;
-      }
-    });
+  let p = task(function* searchForPlace() {
+    // Wait for 500ms
+    yield wait(500);
+    console.log(`⏳ Beginning search for ${term}`);
+
+    // Begin actual query API call
+    let placeResults = yield placesQuery(term);
+    console.log(`✅ Completed search for ${term}`);
+    let placeIds = placeResults.map(place => place.place_id);
+    let places = yield detailsFromPlaceIds(placeIds);
+    console.log(places);
+    // Return the results (eventual value of the task)
+    yield places;
   });
-  p.resolved = false;
   p.term = term;
-  p.cancel = () => {
-    cancelled = true;
-  };
   return p;
 }

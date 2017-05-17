@@ -22,17 +22,38 @@ export function isPromise(x) {
  * @returns {Promise} a promise that will resolve after time
  */
 export function wait(time) {
-  return new Promise((resolve) => {
+  return new Promise(resolve => {
     setTimeout(() => {
       resolve();
     }, time);
   });
 }
 
-export function query(input) {
-  return fetch(`http://localhost:3000/maps/api/place/queryautocomplete/json?input=${input}`)
+/**
+ * Search the google places API, for a particular term
+ *
+ * @export
+ * @param {string} input Search term
+ * @returns {Promise} promise that resolves to search results
+ */
+export function placesQuery(input) {
+  return fetch(
+    `http://localhost:3000/maps/api/place/autocomplete/json?types=establishment&input=${input}`
+  )
     .then(response => response.json())
-    .then((jsonData) => {
-      return jsonData.predictions.map(x => x.description);
+    .then(jsonData => {
+      return jsonData.predictions;
     });
+}
+
+export function detailsFromPlaceIds(placeids) {
+  return Promise.all(
+    placeids.map(placeid => {
+      return fetch(
+        `http://localhost:3000/maps/api/place/details/json?placeid=${placeid}`
+      )
+        .then(response => response.json())
+        .then(jsonData => jsonData.result);
+    })
+  );
 }
