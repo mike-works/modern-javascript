@@ -32,6 +32,8 @@ Yes! **[Here are the slides](https://docs.mike.works/modern-js)**, and **[here's
 
 # What are the pieces?
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/modern-javascript.svg)](https://greenkeeper.io/)
+
 * [Webpack 2](https://webpack.js.org)
 * [Babel](http://babeljs.io/) 6.x, setup with the [stage-2](https://github.com/babel/babel/tree/7.0/packages/babel-preset-stage-2) plugins, compiling to ES5 JavaScript
 * [ESLint](https://github.com/eslint/eslint) for linting, setup with a strict set of rules derived from [Airbnb's ESLint Config](https://www.npmjs.com/package/eslint-config-airbnb)
