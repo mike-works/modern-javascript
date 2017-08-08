@@ -9,19 +9,26 @@
   </a>
 </p>
 <p align='center'>
+  <a href="https://greenkeeper.io/" title="Dependencies">
+    <img title="Greenkeeper" src="https://badges.greenkeeper.io/mike-north/modern-javascript.svg"/>
+  </a>
   <a href="https://travis-ci.org/mike-north/modern-javascript" title="Build Status">
     <img title="Build Status" src="https://travis-ci.org/mike-north/modern-javascript.svg?branch=solutions"/>
   </a>
   <a href="https://mike.works/course/modern-javascript-437a5c3" title="Modern JavaScript">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
   </a>
-  <a href="https://bit.ly/modern-js" title="Slides">
+  <a href="https://docs.mike.works/modern-js" title="Slides">
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
   </a>
 </p>
 <p align='center'>
 This is the example project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Modern JavaScript" href="https://mike.works/course/modern-javascript-437a5c3">Modern JavaScript</a> course.
 </p>
+
+# Are there any documents that go along with this?
+Yes! **[Here are the slides](https://docs.mike.works/modern-js)**, and **[here's a course outline](https://mike.works/course/modern-javascript-437a5c3)**.
+
 
 # What are the pieces?
 
