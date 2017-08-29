@@ -58,7 +58,7 @@ test('r=100, g=100, b=-30 --> color.hex.toLowerCase() should be "646400"', () =>
 });
 
 test('hex=aa0000 --> colors {r: 170, g: 0, b: 0}', () => {
-  let color = new Color(100, 100, -30);
+  let color = new Color(170, 0, 0);
   color.hex = 'aa0000';
 
   expect(color.r).toBe(170);
@@ -67,7 +67,7 @@ test('hex=aa0000 --> colors {r: 170, g: 0, b: 0}', () => {
 });
 
 test('hex=aaee33 --> colors {r: 170, g: 238, b: 51}', () => {
-  let color = new Color(100, 100, -30);
+  let color = new Color(170, 238, 51);
 
   color.hex = 'aaee33';
 
@@ -77,7 +77,7 @@ test('hex=aaee33 --> colors {r: 170, g: 238, b: 51}', () => {
 });
 
 test('hex=c49 --> colors {r: 204, g: 68, b: 153}', () => {
-  let color = new Color(100, 100, -30);
+  let color = new Color(204, 68, 153);
 
   color.hex = 'c49';
 
