@@ -40,6 +40,9 @@ Object.defineProperty(color, 'hex', {
       newHex.substring(offsetG, offsetG + delta),
       newHex.substring(offsetB, offsetB + delta)
     ].map(function toBase10(hexCh) {
+      if (hexCh.length === 1) {
+        return parseInt(hexCh + hexCh, 16);
+      }
       return parseInt(hexCh, 16);
     });
     this.r = r;
