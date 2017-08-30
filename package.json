@@ -15,6 +15,7 @@
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "devDependencies": {
     "@types/jest": "^20.0.6",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
