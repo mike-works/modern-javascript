@@ -32,6 +32,7 @@ describe('fetchPlus("https://api.mike.works/api/v1/courses");', () => {
   test('promise resolves with json', () => {
     p.then((jsonData) => {
       expect(typeof jsonData).toBe('object');
+      expect(typeof jsonData.json).toBe('undefined');
     });
   });
   test('calls fetch once', () => {
