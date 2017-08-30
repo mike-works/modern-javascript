@@ -3,11 +3,16 @@
  *
  * @export
  * @param {array} array Array to iterate over
- * @param {function} func function to invoke
+ * @param {function} transformFunc function to invoke
  * @return {null} nothing
  */
-export function forEach(array, func) {
-
+export function forEach(array, transformFunc) {
+  reduce(array, (transformedArray, currentItem) => {
+    transformedArray.push(
+      transformFunc(currentItem)
+    );
+    return transformedArray;
+  }, []);
 }
 
 /**
@@ -16,11 +21,16 @@ export function forEach(array, func) {
  *
  * @export
  * @param {array} array list of items to transoform
- * @param {function} func transformation function
+ * @param {function} transformFunc transformation function
  * @return {array} transformed items
  */
-export function map(array, func) {
-
+export function map(array, transformFunc) {
+  return reduce(array, (transformedArray, currentItem) => {
+    transformedArray.push(
+      transformFunc(currentItem)
+    );
+    return transformedArray;
+  }, []);
 }
 
 /**
@@ -35,7 +45,12 @@ export function map(array, func) {
  * @return {array} filtered array
  */
 export function filter(array, func) {
-
+  return reduce(array, (filteredResults, currentItem) => {
+    if (func(currentItem)) {
+      filteredResults.push(currentItem);
+    }
+    return filteredResults;
+  }, []);
 }
 
 /**
@@ -43,11 +58,15 @@ export function filter(array, func) {
  * More info: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
  *
  * @export
- * @param {any} array original array
- * @param {any} reducer reducer function
+ * @param {Array} array original array
+ * @param {Function} reducer reducer function
  * @param {any} initialVal initial value of accumulator
  * @return {any} ultimate value of the accumulator
  */
 export function reduce(array, reducer, initialVal) {
-
+  let accumulator = initialVal;
+  for (let i = 0; i < array.length; i++) {
+    accumulator = reducer(accumulator, array[i]);
+  }
+  return accumulator;
 }

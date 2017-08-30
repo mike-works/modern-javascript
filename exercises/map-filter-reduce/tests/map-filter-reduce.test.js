@@ -46,8 +46,8 @@ describe('collection-utils.js exports', () => {
 });
 
 describe('collection-utils#forEach', () => {
-  let c = 0;
   test('Sum up [1, 2, 3]', () => {
+    let c = 0;
     coll.forEach([1, 2, 3], (x) => {
       c += x;
     });
@@ -69,6 +69,9 @@ describe('collection-utils#filter', () => {
 
 describe('collection-utils#reduce', () => {
   test('Sum up [1, 2, 3]', () => {
-    expect(coll.reduce([1, 2, 3], (x, acc) => acc + x, 0)).toBe(6);
+    let val = coll.reduce([1, 2, 3], (x, acc) => {
+      return acc + x;
+    }, 0);
+    expect(val).toBe(6);
   });
 });
