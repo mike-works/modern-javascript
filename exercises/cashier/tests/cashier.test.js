@@ -63,9 +63,9 @@ describe('adding each item, increases total as appropriate', () => {
 });
 
 describe('chaining to add a few items', () => {
-  let c = module.cashier();
+  let cart = module.cashier();
   test('add a few items by chaining', () => {
-    let tot = c
+    let tot = cart
       .add({name: 'Grapes', price: 1.12, qty: 2})
       .add({name: 'Pears', price: 3.51, qty: 5})
       .total;

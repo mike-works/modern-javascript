@@ -6,16 +6,9 @@ Object.defineProperty(color, 'hex', {
     let hexG = this.g;
     let hexB = this.b;
     return [hexR, hexG, hexB]
-      .map(function boxChannel(ch) {
-        return Math.max(0, Math.min(255, ch));
-      })
-      .map(function toHex(ch) {
-        return ch.toString(16);
-      })
-      .map(function padChannel(ch) {
-        if (ch.length < 2) return `0${ch}`;
-        return ch;
-      })
+      .map(ch => Math.max(0, Math.min(255, ch)))
+      .map(ch => ch.toString(16))
+      .map(ch => ch.length < 2 ? `0${ch}` : ch)
       .join('');
   },
   set(newHex) {
