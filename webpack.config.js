@@ -13,6 +13,7 @@ module.exports = function webpackConfig(env) {
   return {
     entry: entries(env),
     context: EXERCISE_PATH,
+    devtool: 'source-map',
     output: {
       path: path.join(__dirname, 'dist'),
       filename: '[name].js',

@@ -12,18 +12,18 @@ export function task(genFn) {
   let p = new Promise((resolve) => {
     let iterator = genFn();
     let lastValue = null;
-    keepGoing();
-    function keepGoing() {
+    nextStep();
+    function nextStep() {
       if (cancelled) return;
       let yielded = iterator.next.apply(iterator, arguments);
       if (isPromise(yielded.value)) {
         yielded.value.then(d => {
           lastValue = yielded.value;
-          keepGoing(d);
+          nextStep(d);
         });
       } else if (!yielded.done) {
         lastValue = yielded.value;
-        keepGoing(yielded.value);
+        nextStep(yielded.value);
       } else {
         p.finished = true;
         resolve(lastValue);
