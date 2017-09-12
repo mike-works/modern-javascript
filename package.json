@@ -17,7 +17,7 @@
     "@types/jest": "^20.0.6",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.0.0",
     "babel-loader": "^7.0.0",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-transform-react-jsx": "^6.24.1",
