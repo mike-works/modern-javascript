@@ -14,7 +14,7 @@
   "repository": "https://github.com/mike-north/modern-javascript",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "devDependencies": {
-    "@types/jest": "^20.0.6",
+    "@types/jest": "^21.1.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
