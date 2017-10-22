@@ -69,7 +69,7 @@ export class PlaceSearch extends Component {
     this.setState({ _existingSearch: p });
     // Attach a promise handler to the search.
     //  THIS WILL ONLY BE INVOKED IF THE SEARCH RUNS TO COMPLETION
-    this.state._existingSearch.then(results => {
+    p.then(results => {
       // When the search completes, update the "results" state, triggering a re-render
       this.setState({ results });
     });
@@ -84,32 +84,33 @@ export class PlaceSearch extends Component {
    *
    * @memberof PlaceSearch
    */
-  render(elem, { results, _existingSearch }) {
+  render() {
+    let { results, _existingSearch } = this.state;
     /**
      * There are a bunch of different things that we could end up
      * displaying as feedback to the user. Below we handle each of
      * four cases independently, taking care to always have searchResults
      * be an array.
      */
-    let searchResults = null;
+    let searchResults = [];
     if (!_existingSearch) {
       // No search yet
-      searchResults = [<li>Type something in above to search</li>];
+      searchResults = [<li key='goahead'>Type something in above to search</li>];
     } else if (_existingSearch && !_existingSearch.finished) {
       // Search in progress
       searchResults = [
-        <li class="blue">Searching for {_existingSearch.term}...</li>
+        <li key='inprogress' className="blue">Searching for {_existingSearch.term}...</li>
       ];
     } else if (results.length === 0) {
       // No results found
       searchResults = [
-        <li class="red">Sorry! No results for {_existingSearch.term}.</li>
+        <li key='noresults' className="red">Sorry! No results for {_existingSearch.term}.</li>
       ];
     } else {
       // Search complete
       searchResults = results.map(r => (
-        <li class="search-result">
-          <img class="icon" src={r.icon} />
+        <li key={r.id} className="search-result">
+          <img className="icon" src={r.icon} />
           <h3>{r.name}</h3>
           <p>
             <a href={r.url} target="_blank">{r.vicinity}</a>
