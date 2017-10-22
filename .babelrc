@@ -13,14 +13,5 @@
       }
     ],
     "stage-2"
-  ],
-  "plugins": [
-    ["module-resolver", {
-      "root": ["."],
-      "alias": {
-          "react": "preact-compat",
-          "react-dom": "preact-compat"
-      }
-    }]
   ]
 }

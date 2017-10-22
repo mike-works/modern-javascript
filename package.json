@@ -32,6 +32,7 @@
     "jest": "^20.0.1",
     "node-fetch": "^1.6.3",
     "node-sass": "^4.5.2",
+    "regenerator": "^0.11.0",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.1",
@@ -39,8 +40,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
-    "babel-polyfill": "^6.23.0",
-    "preact": "^8.1.0",
-    "preact-compat": "^3.16.0"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   }
 }

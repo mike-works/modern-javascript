@@ -1,7 +1,8 @@
 const { hasFile } = require('./utils');
 
 module.exports = function generateWebpackEntries(env) {
-  let baseEntries = ['babel-polyfill', '../../public/styles/app.scss'];
+  let baseEntries = ['../../public/styles/app.scss'];
+
   if (hasFile(env, './src/index.jsx')) {
     baseEntries.push('./src/index.jsx');
   } else if (hasFile(env, './src/index.js')) {
@@ -9,6 +10,7 @@ module.exports = function generateWebpackEntries(env) {
   } else {
     throw `Exercise ${env} must either have an index.js or index.jsx`;
   }
+
   if (hasFile(env, './styles/app.scss')) {
     baseEntries.push('./styles/app.scss');
   }
