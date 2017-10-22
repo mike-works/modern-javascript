@@ -10,10 +10,7 @@ module.exports = function generateWebpackModule(env) {
         include: [exercises.exercisePath(env)],
         use: [
           {
-            loader: 'babel-loader',
-            options: {
-              presets: ['env', 'stage-2']
-            }
+            loader: 'babel-loader'
           },
           {
             loader: 'eslint-loader'
