@@ -40,7 +40,7 @@ describe('Loading a document by filename', () => {
   test('Attempting to load a non-existing file should throw', () => {
     expect(() => {
       Doc.fromFile('alkshflkh-v1.json');
-    }).toThrow('Cannot find document: alkshflkh-v1.json');
+    }).toThrow(/Cannot find/);
   });
 
   test('doc-v1 - checking changes from v1 to v2', () => {
