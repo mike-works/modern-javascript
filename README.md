@@ -32,8 +32,9 @@ Yes! **[Here are the slides](https://docs.mike.works/modern-js)**, and **[here's
 
 # What are the pieces?
 
-* [Webpack 2](https://webpack.js.org)
-* [Babel](http://babeljs.io/) 6.x, setup with the [stage-2](https://github.com/babel/babel/tree/7.0/packages/babel-preset-stage-2) plugins, compiling to ES5 JavaScript
+* [Webpack 3](https://webpack.js.org)
+* [React v16](https://facebook.github.io/react/)
+* [Babel](http://babeljs.io/) 7.x, setup with the [stage-2](https://github.com/babel/babel/tree/7.0/packages/babel-preset-stage-2) plugins, compiling to ES5 JavaScript
 * [ESLint](https://github.com/eslint/eslint) for linting, setup with a strict set of rules derived from [Airbnb's ESLint Config](https://www.npmjs.com/package/eslint-config-airbnb)
 * [sass-loader](https://github.com/webpack-contrib/sass-loader) for traditional management of styles
 * [extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin) so compiled styles are external stylesheets instead of inline style blocks
