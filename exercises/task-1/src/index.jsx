@@ -1,3 +1,4 @@
+// @ts-check
 import 'regenerator-runtime/runtime';
 import { render } from 'react-dom';
 import { PlaceSearch } from './PlaceSearch';
