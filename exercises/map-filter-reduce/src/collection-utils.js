@@ -7,7 +7,9 @@
  * @return {null} nothing
  */
 export function forEach(array, func) {
-
+  for (let i = 0; i < array.length; i++) {
+    func(array[i]);
+  }
 }
 
 /**
@@ -20,7 +22,9 @@ export function forEach(array, func) {
  * @return {array} transformed items
  */
 export function map(array, func) {
-
+  return reduce(array, (transformed, item) => {
+    return transformed.concat(func(item)); // add the item
+  }, []);
 }
 
 /**
@@ -35,7 +39,10 @@ export function map(array, func) {
  * @return {array} filtered array
  */
 export function filter(array, func) {
-
+  return reduce(array, (passers, item) => {
+    if (func(item)) return passers.concat(item); // add the item
+    return passers; // don't add the item
+  }, []);
 }
 
 /**
@@ -49,5 +56,9 @@ export function filter(array, func) {
  * @return {any} ultimate value of the accumulator
  */
 export function reduce(array, reducer, initialVal) {
-
+  let result = initialVal;
+  for (let i = 0; i < array.length; i++) {
+    result = reducer(result, array[i]);
+  }
+  return result;
 }
