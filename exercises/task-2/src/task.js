@@ -10,5 +10,23 @@ import { isPromise } from './utils/promise';
  * @return {Promise} promise resolving to final value of the task
  */
 export function task(genFn) {
-  return Promise.resolve([]);
+  return new Promise((resolve) => {
+    let iterator = genFn();
+    let lastValue = null;
+    keepGoing();
+    function keepGoing() {
+      let yielded = iterator.next.apply(iterator, arguments);
+      if (isPromise(yielded.value)) {
+        yielded.value.then(d => {
+          lastValue = yielded.value;
+          keepGoing(d);
+        });
+      } else if (!yielded.done) {
+        lastValue = yielded.value;
+        keepGoing(yielded.value);
+      } else {
+        resolve(lastValue);
+      }
+    }
+  });
 }
