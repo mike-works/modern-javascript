@@ -39,7 +39,6 @@
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.2",
     "uglify-js-es6": "^2.8.9",
-    "uglifyes-webpack-plugin": "^0.4.3",
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.5.1",
     "webpack-bundle-analyzer": "^2.9.0",
