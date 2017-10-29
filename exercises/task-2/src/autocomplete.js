@@ -1,8 +1,15 @@
+// @ts-check
 import { task } from './task';
-import { placesQuery, detailsFromPlaceIds, wait } from './utils';
+import { wait } from './utils/promise';
+import { placesQuery, detailsFromPlaceIds } from './utils/place';
 
+/**
+ * Search google places API with a given term
+ * @param {string} term search term 
+ * @returns {Promise} places found for search term
+ */
 export function autocomplete(term) {
-  let p = task(function* searchForPlace() {
+  return task(function* searchForPlace() {
     // Wait for 500ms
     yield wait(500);
     console.log(`⏳ Beginning search for ${term}`);
@@ -16,6 +23,4 @@ export function autocomplete(term) {
     // Return the results (eventual value of the task)
     yield places;
   });
-  p.term = term;
-  return p;
 }

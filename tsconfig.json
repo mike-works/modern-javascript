@@ -2,6 +2,15 @@
 	"compilerOptions": {
     "allowJs": true,
 		"target": "ES2015",
+		"lib": [
+			"scripthost",
+			"dom", "dom.iterable", "es2017"
+		],
+		"types": [
+			"dom"
+		],
+		"jsx": "preserve",
+		"module": "es6",
     "sourceMap": true,
     "noImplicitAny": false,
     "experimentalDecorators": true
