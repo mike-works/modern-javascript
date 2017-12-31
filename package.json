@@ -33,7 +33,7 @@
     "eslint-plugin-react": "^7.0.1",
     "extract-text-webpack-plugin": "^3.0.0",
     "greenkeeper-lockfile": "^1.2.1",
-    "jest": "^21.0.0",
+    "jest": "^22.0.0",
     "node-fetch": "^1.6.3",
     "node-sass": "^4.5.2",
     "regenerator": "^0.12.0",
