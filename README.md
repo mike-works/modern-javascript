@@ -10,10 +10,10 @@
 </p>
 <p align='center'>
   <a href="https://greenkeeper.io/" title="Dependencies">
-    <img title="Greenkeeper" src="https://badges.greenkeeper.io/mike-north/modern-javascript.svg"/>
+    <img title="Greenkeeper" src="https://badges.greenkeeper.io/mike-works/modern-javascript.svg"/>
   </a>
-  <a href="https://travis-ci.org/mike-north/modern-javascript" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/modern-javascript.svg?branch=solutions"/>
+  <a href="https://travis-ci.org/mike-works/modern-javascript" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-works/modern-javascript.svg?branch=solutions"/>
   </a>
   <a href="https://mike.works/course/modern-javascript-437a5c3" title="Modern JavaScript">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
@@ -96,7 +96,7 @@ exercises contained within this project to run your own workshops
 
 # Copyright
 
-&copy; 2017 [Mike.Works](https://mike.works), All Rights Reserved
+&copy; 2018 [Mike.Works](https://mike.works), All Rights Reserved
 
 ###### This material may not be used for workshops, training, or any other form of instructing or teaching developers, without express written consent
 

@@ -11,7 +11,7 @@
     "build:dev": "scripty",
     "build:dist": "scripty"
   },
-  "repository": "https://github.com/mike-north/modern-javascript",
+  "repository": "https://github.com/mike-works/modern-javascript",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "devDependencies": {
     "@types/jest": "^22.0.0",
