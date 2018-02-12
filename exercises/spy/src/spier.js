@@ -4,9 +4,7 @@
  * @export
  * @returns {Spier} a new instance of a Spier
  */
-export function Spier() {
-
-}
+export function Spier() {}
 
 Spier.prototype = {
   /**
@@ -17,9 +15,7 @@ Spier.prototype = {
    * @param {any} stub (optional), function to use when invoking the spy
    * @returns {undefined}
    */
-  spy(obj, funcName, stub) {
-
-  },
+  spy(obj, funcName, stub) {},
   /**
    * Get the number of installed spies
    */
@@ -30,14 +26,10 @@ Spier.prototype = {
    * @param {function} spy the spy to release
    * @return {undefined}
    */
-  release(spy) {
-
-  },
+  release(spy) {},
   /**
    * Release all spies
    * @return {undefined}
    */
-  releaseAll() {
-
-  }
+  releaseAll() {}
 };

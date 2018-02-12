@@ -15,13 +15,13 @@ describe('document.js exports the correct stuff', () => {
   });
 });
 
-describe('Doc\'s constructor has the correct public API', () => {
+describe("Doc's constructor has the correct public API", () => {
   test('fromFile', () => {
     expect(typeof Doc.fromFile).toBe('function');
   });
 });
 
-describe('Doc\'s prototype has the correct public API', () => {
+describe("Doc's prototype has the correct public API", () => {
   test('_loadDocument is a function', () => {
     expect(typeof Doc.prototype._loadDocument).toBe('function');
   });
@@ -64,7 +64,7 @@ describe('Loading a document by filename', () => {
 
 describe('Tricky cases having to do with names', () => {
   test('Empty name is handled by first, middle and last name being empty strings', () => {
-    let x = new Doc({version: 1, data: { name: ''}});
+    let x = new Doc({ version: 1, data: { name: '' } });
     let data = x.data;
     expect(data.firstName).toBe('');
     expect(data.middleName).toBe('');
@@ -72,7 +72,7 @@ describe('Tricky cases having to do with names', () => {
   });
 
   test('Mononym is handled by  middle and last name being empty strings', () => {
-    let x = new Doc({version: 1, data: { name: 'Madonna'}});
+    let x = new Doc({ version: 1, data: { name: 'Madonna' } });
     let data = x.data;
     expect(data.firstName).toBe('Madonna');
     expect(data.middleName).toBe('');
@@ -80,7 +80,10 @@ describe('Tricky cases having to do with names', () => {
   });
 
   test('Multiple middle names are joined together', () => {
-    let x = new Doc({version: 1, data: { name: 'Charles Philip Arthur George Mountbatten-Windsor'}});
+    let x = new Doc({
+      version: 1,
+      data: { name: 'Charles Philip Arthur George Mountbatten-Windsor' }
+    });
     let data = x.data;
     expect(data.firstName).toBe('Charles');
     expect(data.middleName).toBe('Philip Arthur George');

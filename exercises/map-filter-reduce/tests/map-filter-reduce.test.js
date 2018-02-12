@@ -13,10 +13,10 @@ beforeEach(() => {
   Array.prototype.map = () => {
     throw 'Array.prototype.map is not allowed';
   };
-  Array.prototype.filter =  () => {
+  Array.prototype.filter = () => {
     throw 'Array.prototype.filter is not allowed';
   };
-  Array.prototype.reduce =  () => {
+  Array.prototype.reduce = () => {
     throw 'Array.prototype.reduce is not allowed';
   };
 });
@@ -48,7 +48,7 @@ describe('collection-utils.js exports', () => {
 describe('collection-utils#forEach', () => {
   let c = 0;
   test('Sum up [1, 2, 3]', () => {
-    coll.forEach([1, 2, 3], (x) => {
+    coll.forEach([1, 2, 3], x => {
       c += x;
     });
     expect(c).toBe(6);
@@ -57,13 +57,13 @@ describe('collection-utils#forEach', () => {
 
 describe('collection-utils#map', () => {
   test('Square [1, 2, 3]', () => {
-    expect(coll.map([1, 2, 3], (x) => x * x)).toMatchObject([1, 4, 9]);
+    expect(coll.map([1, 2, 3], x => x * x)).toMatchObject([1, 4, 9]);
   });
 });
 
 describe('collection-utils#filter', () => {
   test('filter [1, 2, 3] where x > 2', () => {
-    expect(coll.filter([1, 2, 3], (x) => x > 2)).toMatchObject([3]);
+    expect(coll.filter([1, 2, 3], x => x > 2)).toMatchObject([3]);
   });
 });
 

@@ -18,11 +18,11 @@ test('color-utils.js / rgbToHex(255, 255, 255) --> "ffffff"', () => {
 });
 
 test('color-utils.js / hexToRgb("ff0000") -> {r: 255, g: 0, b: 0}', () => {
-  expect(colorUtils.hexToRgb('ff0000')).toMatchObject({r: 255, g: 0, b: 0});
+  expect(colorUtils.hexToRgb('ff0000')).toMatchObject({ r: 255, g: 0, b: 0 });
 });
 
 test('color-utils.js / hexToRgb("f00") -> {r: 255, g: 0, b: 0}', () => {
-  expect(colorUtils.hexToRgb('f00')).toMatchObject({r: 255, g: 0, b: 0});
+  expect(colorUtils.hexToRgb('f00')).toMatchObject({ r: 255, g: 0, b: 0 });
 });
 
 test('color.r, color.g and color.b properties should all be numbers', () => {

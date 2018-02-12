@@ -24,7 +24,7 @@ describe('Spier protype has correct public API', () => {
     expect(typeof Spier.prototype.releaseAll).toBe('function');
   });
   test('Spier#length property', () => {
-    expect(typeof (new Spier()).length).toBe('number');
+    expect(typeof new Spier().length).toBe('number');
   });
 });
 
@@ -76,7 +76,7 @@ describe('Stubbing works', () => {
   test('Invoking a "spy" installed w/ a provided stub returns the "canned" result', () => {
     let s = new Spier();
     expect(o.a(2)).toBe(125);
-    s.spy(o, 'a', (x) => 10 + x);
+    s.spy(o, 'a', x => 10 + x);
     expect(o.a(2)).toBe(12);
     s.releaseAll();
   });

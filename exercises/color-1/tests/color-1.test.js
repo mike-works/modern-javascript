@@ -12,7 +12,7 @@ test('color.hex property should be a string', () => {
 
 test('r=255, g=255, b=255 --> color.hex.toLowerCase() should be "ffffff"', () => {
   let { r, g, b } = color;
-  let _oldVals = {r, g, b};
+  let _oldVals = { r, g, b };
 
   color.r = 255;
   color.g = 255;
@@ -27,7 +27,7 @@ test('r=255, g=255, b=255 --> color.hex.toLowerCase() should be "ffffff"', () =>
 
 test('r=255, g=0, b=0 --> color.hex.toLowerCase() should be "ff0000"', () => {
   let { r, g, b } = color;
-  let _oldVals = {r, g, b};
+  let _oldVals = { r, g, b };
 
   color.r = 255;
   color.g = 0;
@@ -42,7 +42,7 @@ test('r=255, g=0, b=0 --> color.hex.toLowerCase() should be "ff0000"', () => {
 
 test('r=299, g=0, b=0 --> color.hex.toLowerCase() should be "ff0000"', () => {
   let { r, g, b } = color;
-  let _oldVals = {r, g, b};
+  let _oldVals = { r, g, b };
 
   color.r = 299;
   color.g = 0;
@@ -57,7 +57,7 @@ test('r=299, g=0, b=0 --> color.hex.toLowerCase() should be "ff0000"', () => {
 
 test('r=100, g=100, b=-30 --> color.hex.toLowerCase() should be "646400"', () => {
   let { r, g, b } = color;
-  let _oldVals = {r, g, b};
+  let _oldVals = { r, g, b };
 
   color.r = 100;
   color.g = 100;
@@ -72,7 +72,7 @@ test('r=100, g=100, b=-30 --> color.hex.toLowerCase() should be "646400"', () =>
 
 test('hex=aa0000 --> colors {r: 170, g: 0, b: 0}', () => {
   let { r, g, b } = color;
-  let _oldVals = {r, g, b};
+  let _oldVals = { r, g, b };
 
   color.hex = 'aa0000';
 
@@ -87,7 +87,7 @@ test('hex=aa0000 --> colors {r: 170, g: 0, b: 0}', () => {
 
 test('hex=aaee33 --> colors {r: 170, g: 238, b: 51}', () => {
   let { r, g, b } = color;
-  let _oldVals = {r, g, b};
+  let _oldVals = { r, g, b };
 
   color.hex = 'aaee33';
 
@@ -102,7 +102,7 @@ test('hex=aaee33 --> colors {r: 170, g: 238, b: 51}', () => {
 
 test('hex=c49 --> colors {r: 204, g: 68, b: 153}', () => {
   let { r, g, b } = color;
-  let _oldVals = {r, g, b};
+  let _oldVals = { r, g, b };
 
   color.hex = 'c49';
 

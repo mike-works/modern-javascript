@@ -1,14 +1,13 @@
 import * as module from '../src/fetchplus.js';
 const _fetchPlus = module.default;
 
-let fetch = (url) => {
+let fetch = url => {
   fetch.count++;
   return Promise.resolve({
     json: () => Promise.resolve({ url })
   });
 };
 fetch.count = 0;
-
 
 function fetchPlus(url, options) {
   return _fetchPlus(url, options, fetch);
@@ -30,7 +29,7 @@ describe('fetchPlus("https://api.mike.works/api/v1/courses");', () => {
     expect(typeof p.then).toBe('function');
   });
   test('promise resolves with json', () => {
-    p.then((jsonData) => {
+    p.then(jsonData => {
       expect(typeof jsonData).toBe('object');
     });
   });
@@ -53,7 +52,7 @@ describe('fetchPlus("https://api.mike.works/api/v1/talks");', () => {
     fetchPlus('https://api.mike.works/api/v1/talks');
     expect(fetch.count).toBe(2);
   });
-  test('multiple requests to that same url don\'t make new API calls', () => {
+  test("multiple requests to that same url don't make new API calls", () => {
     fetchPlus('https://api.mike.works/api/v1/talks');
     fetchPlus('https://api.mike.works/api/v1/talks');
     fetchPlus('https://api.mike.works/api/v1/talks');

@@ -4,7 +4,7 @@
  * @param {string} rawUrl url string to shorten
  * @param {number} maxLength maximum allowable length
  * @return {string} shortened url string
- * 
+ *
  * @example
  * // returns "mike.works/cour..ecurity-5c876cc"
  * shortUrl('https://mike.works/course/web-security-5c876cc', 30)
@@ -28,7 +28,7 @@ export function shortUrl(rawUrl, maxLength = 50) {
  * @param {number} maxLength maximum allowable length
  * @param {boolean} reverseMode whether the shortening direction should be reversed
  * @returns {string} shortened string
- * 
+ *
  * @example
  * // returns 'Hello worl'
  * shortString('Hello world!', 10)
@@ -39,9 +39,14 @@ export function shortUrl(rawUrl, maxLength = 50) {
  */
 export function shortString(rawString, maxLength, reverseMode = false) {
   let stopCharacters = [' ', '/', '&'];
-  let allowedShortness = maxLength * 0.80; // When to start looking for stop characters
+  let allowedShortness = maxLength * 0.8; // When to start looking for stop characters
   let reverse = typeof reverseMode !== 'undefined' ? reverseMode : false;
-  let s = reverse ? rawString.split('').reverse().join('') : rawString;
+  let s = reverse
+    ? rawString
+        .split('')
+        .reverse()
+        .join('')
+    : rawString;
   let short = '';
 
   for (let i = 0; i < maxLength; i++) {
@@ -51,7 +56,10 @@ export function shortString(rawString, maxLength, reverseMode = false) {
     }
   }
   if (reverse) {
-    return short.split('').reverse().join('');
+    return short
+      .split('')
+      .reverse()
+      .join('');
   }
   return short;
 }

@@ -11,7 +11,7 @@ function urlForQuery(s) {
 
 /**
  * Get a URL for place details
- * @param {number} placeId id of place to retrieve details about 
+ * @param {number} placeId id of place to retrieve details about
  * @return {string} url to hit
  */
 function urlForPlaceDetails(placeId) {

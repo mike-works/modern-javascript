@@ -5,7 +5,7 @@ import { placesQuery, detailsFromPlaceIds } from './utils/place';
 
 /**
  * Search google places API with a given term
- * @param {string} term search term 
+ * @param {string} term search term
  * @returns {Promise} places found for search term
  */
 export function autocomplete(term) {

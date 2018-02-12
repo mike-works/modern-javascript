@@ -1,6 +1,6 @@
 import { hexToRgb, rgbToHex } from './color-utils';
 
-export let color = {r: 255, g: 0, b: 0};
+export let color = { r: 255, g: 0, b: 0 };
 // define the hex property here
 
 Object.defineProperty(color, 'hex', {
