@@ -2,5 +2,8 @@
   "code-runner.executorMap": {
     "javascript": "./node_modules/.bin/babel-node",
     "typescript": "ts-node"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
   }
 }
