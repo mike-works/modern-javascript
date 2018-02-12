@@ -1,2 +1,2 @@
 #!/bin/bash
-jest --watch
+./node_modules/.bin/jest --watch $1 $2
