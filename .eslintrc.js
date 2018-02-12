@@ -118,7 +118,7 @@ module.exports = {
     /**
      * Style
      */
-    indent: ['error', 2], // http://eslint.org/docs/rules/indent
+    indent: 0, // http://eslint.org/docs/rules/indent
     'brace-style': [
       2, // http://eslint.org/docs/rules/brace-style
       '1tbs',
@@ -172,38 +172,16 @@ module.exports = {
     'no-nested-ternary': 2, // http://eslint.org/docs/rules/no-nested-ternary
     'no-new-object': 2, // http://eslint.org/docs/rules/no-new-object
     'no-spaced-func': 2, // http://eslint.org/docs/rules/no-spaced-func
-    'no-trailing-spaces': 2, // http://eslint.org/docs/rules/no-trailing-spaces
     'no-extra-parens': [2, 'functions'], // http://eslint.org/docs/rules/no-extra-params
     'one-var': [2, 'never'], // http://eslint.org/docs/rules/one-var
     'padded-blocks': [2, 'never'], // http://eslint.org/docs/rules/padded-blocks
     semi: [2, 'always'], // http://eslint.org/docs/rules/semi
-    'semi-spacing': [
-      2,
-      {
-        // http://eslint.org/docs/rules/semi-spacing
-        before: false,
-        after: true
-      }
-    ],
-    'keyword-spacing': 2, // http://eslint.org/docs/rules/keyword-spacing
-    'space-before-blocks': 2, // http://eslint.org/docs/rules/space-before-blocks
-    'space-before-function-paren': [
-      2,
-      {
-        anonymous: 'always',
-        named: 'never'
-      }
-    ], // http://eslint.org/docs/rules/space-before-function-paren
-    'space-infix-ops': 2, // http://eslint.org/docs/rules/space-infix-ops
-    'space-unary-ops': 2, // http://eslint.org/docs/rules/space-unary-ops
-    'spaced-comment': [
-      2,
-      'always',
-      {
-        // http://eslint.org/docs/rules/spaced-comment
-        exceptions: ['-', '+'],
-        markers: ['=', '!'] // space here to support sprockets directives
-      }
-    ]
+    'semi-spacing': 0,
+    'keyword-spacing': 0, // http://eslint.org/docs/rules/keyword-spacing
+    'space-before-blocks': 0, // http://eslint.org/docs/rules/space-before-blocks
+    'space-before-function-paren': 0, // http://eslint.org/docs/rules/space-before-function-paren
+    'space-infix-ops': 0, // http://eslint.org/docs/rules/space-infix-ops
+    'space-unary-ops': 0, // http://eslint.org/docs/rules/space-unary-ops
+    'spaced-comment': 0
   }
 };
