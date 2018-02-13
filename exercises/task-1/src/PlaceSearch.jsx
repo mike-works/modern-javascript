@@ -53,7 +53,7 @@ const SearchResults = ({search, results, trySearch}) => {
     ];
   } else {
     // Search complete
-    searchResults = results.map(r => <SearchResultItem result={r} />);
+    searchResults = results.map(r => <SearchResultItem key={r.id} result={r} />);
   }
   return <SearchResultItemList results={searchResults} trySearch={trySearch} />;
 };
@@ -77,8 +77,9 @@ export class PlaceSearch extends Component {
   trySearch(evt) {
     // Kick off a search
     let p = autocomplete(evt.target.value).then(results => {
+      let filtered = results.filter(x => x);
       // When the search completes, update the "results" state, triggering a re-render
-      if (this.state.search === p) this.setState({ results });
+      if (this.state.search === p) this.setState({ results: filtered });
     });
     // Update the search state, so our component re-renders
     //   (probably to update the "Searching for <term>..." message)
