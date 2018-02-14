@@ -1,10 +1,10 @@
-// import * as taskModule from '../src/task.js';
+import * as autocompleteModule from '../src/autocomplete.js';
 
-// describe('task.js exports are correct', () => {
-//   test('getFibSequence export is found', () => {
-//     expect(typeof taskModule.task).toBe('function');
-//   });
-//   test('only one thing exported from the module', () => {
-//     expect(Object.keys(taskModule).length).toBe(1);
-//   });
-// });
+describe('autocomplete.js exports are correct', () => {
+  test('autocomplete export is found', () => {
+    expect(typeof autocompleteModule.autocomplete).toBe('function');
+  });
+  test('only one thing exported from the module', () => {
+    expect(Object.keys(autocompleteModule).length).toBe(1);
+  });
+});
