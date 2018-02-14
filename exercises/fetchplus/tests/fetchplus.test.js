@@ -41,9 +41,7 @@ describe('fetchPlus("https://api.mike.works/api/v1/courses");', () => {
     fetchPlus('https://api.mike.works/api/v1/courses');
     fetchPlus('https://api.mike.works/api/v1/courses');
     fetchPlus('https://api.mike.works/api/v1/courses');
-    test('no new fetch calls are made', () => {
-      expect(fetch.count).toBe(1);
-    });
+    expect(fetch.count).toBe(1);
   });
 });
 
