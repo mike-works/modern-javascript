@@ -26,10 +26,10 @@
 This is the example project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Modern JavaScript" href="https://mike.works/course/modern-javascript-437a5c3">Modern JavaScript</a> course.
 </p>
 
-# Are there any documents that go along with this?
-Yes! **[Here are the slides](https://docs.mike.works/modern-js)**, and **[here's a course outline](https://mike.works/course/modern-javascript-437a5c3)**.
-
-
+# Course outline and slides
+ * [View course outline here](https://mike.works/course/modern-javascript-437a5c3)
+ * [View slides here](https://docs.mike.works/modern-js)
+ 
 # What are the pieces?
 
 * [Webpack 3](https://webpack.js.org)
