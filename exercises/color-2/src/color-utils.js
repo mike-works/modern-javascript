@@ -27,3 +27,5 @@ export function hexToRgb(hex) {
   let b = hexChToDecimal(hex.substr(2 * chL, chL));
   return { r, g, b };
 }
+
+export const TEST_ONLY = { hexChToDecimal };
