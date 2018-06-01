@@ -4,9 +4,13 @@
  * @export
  * @param {array} array Array to iterate over
  * @param {function} func function to invoke
- * @return {null} nothing
+ * @return {void} nothing
  */
-export function forEach(array, func) {}
+export function forEach(array, func) {
+  for (let index = 0; index < array.length; index++) {
+    func(array[index]);
+  }
+}
 
 /**
  * Create a transformed copy of an array, where
@@ -14,10 +18,19 @@ export function forEach(array, func) {}
  *
  * @export
  * @param {array} array list of items to transoform
- * @param {function} func transformation function
+ * @param {function} transformFunction transformation function
  * @return {array} transformed items
  */
-export function map(array, func) {}
+export function map(array, transformFunction) {
+  return reduce(
+    array,
+    (transformedArr, item) => {
+      transformedArr.push(transformFunction(item));
+      return transformedArr;
+    },
+    []
+  );
+}
 
 /**
  * Create a filtered array, given an original array and
@@ -27,10 +40,21 @@ export function map(array, func) {}
  *
  * @export
  * @param {array} array original array
- * @param {function} func filtering function
+ * @param {function} testFunction filtering function
  * @return {array} filtered array
  */
-export function filter(array, func) {}
+export function filter(array, testFunction) {
+  return reduce(
+    array,
+    (filteredArr, item) => {
+      if (testFunction(item)) {
+        filteredArr.push(item);
+      }
+      return filteredArr;
+    },
+    []
+  );
+}
 
 /**
  * Generate a singular value by iterating over an array.
@@ -42,4 +66,14 @@ export function filter(array, func) {}
  * @param {any} initialVal initial value of accumulator
  * @return {any} ultimate value of the accumulator
  */
-export function reduce(array, reducer, initialVal) {}
+export function reduce(array, reducer, initialVal) {
+  // SUM UP [1, 2, 3] = 6
+  let result = initialVal;
+  for (let i = 0; i < array.length; i++) {
+    result = reducer(result, array[i], i, array);
+    // (sum, value) => {
+    //   return sum + value;
+    // }
+  }
+  return result;
+}
