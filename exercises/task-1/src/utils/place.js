@@ -25,17 +25,15 @@ function urlForPlaceDetails(placeId) {
  * @param {string} input Search term
  * @returns {Promise} promise that resolves to search results
  */
-export function placesQuery(input) {
-  return fetch(urlForQuery(input))
-    .then(response => response.json())
-    .then(jsonData => {
-      return jsonData.predictions;
-    });
+export async function placesQuery(input) {
+  let response = await fetch(urlForQuery(input));
+  let jsonData = await response.json();
+  return jsonData.predictions;
 }
 
 export function detailsFromPlaceIds(placeids) {
   return Promise.all(
-    placeids.map(placeid => {
+    placeids.map(async placeid => {
       return fetch(urlForPlaceDetails(placeid))
         .then(response => response.json())
         .then(jsonData => jsonData.result);
