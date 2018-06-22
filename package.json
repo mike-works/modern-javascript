@@ -20,7 +20,7 @@
     "@types/react-dom": "^16.0.2",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
-    "babel-eslint": "^8.0.0",
+    "babel-eslint": "^8.2.4",
     "babel-loader": "^7.0.0",
     "babel-plugin-module-resolver": "^3.0.0",
     "babel-preset-env": "^1.4.0",
