@@ -34,7 +34,7 @@
     "css-loader": "^0.28.1",
     "eslint": "^5.4.0",
     "eslint-loader": "^1.7.1",
-    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-react": "^7.11.1",
     "extract-text-webpack-plugin": "^3.0.0",
     "jest": "^22.0.0",
     "jest-cli": "^23.5.0",
