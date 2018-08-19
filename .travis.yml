@@ -1,18 +1,26 @@
 language: node_js
 node_js:
-  - '6'
   - '8'
   - 'stable'
+
+addons:
+  chrome: stable
+
+cache:
+  directories:
+    - $HOME/.npm
 
 sudo: required
 dist: trusty
 
 script: npm run test:ci
 
-before_install: npm install -g greenkeeper-lockfile@1
 before_script: 
   - sudo chmod 4755 /opt/google/chrome/chrome-sandbox
   - sudo chown root /opt/google/chrome/chrome-sandbox
-  - greenkeeper-lockfile-update
 
-after_script: greenkeeper-lockfile-upload
+after_success:
+  - npm run travis-deploy-once "npm run semantic-release"
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
