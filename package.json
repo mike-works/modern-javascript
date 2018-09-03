@@ -54,7 +54,7 @@
     "semantic-release": "^15.9.12"
   },
   "dependencies": {
-    "react": "^16.0.0",
+    "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
   "release": {
