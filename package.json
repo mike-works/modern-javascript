@@ -47,7 +47,7 @@
     "uglify-js-es6": "^2.8.9",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.19.0",
-    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-bundle-analyzer": "^3.0.2",
     "webpack-dev-middleware": "^3.3.0",
     "webpack-dev-server": "^3.1.7",
     "travis-deploy-once": "^5.0.2",
