@@ -45,7 +45,7 @@
     "scripty": "^1.7.2",
     "style-loader": "^0.20.0",
     "uglify-js-es6": "^2.8.9",
-    "uglifyjs-webpack-plugin": "^1.3.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.19.0",
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-dev-middleware": "^3.3.0",
