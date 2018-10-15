@@ -42,7 +42,7 @@
     "node-sass": "^4.5.2",
     "regenerator": "^0.13.2",
     "sass-loader": "^6.0.5",
-    "scripty": "^1.7.2",
+    "scripty": "^1.8.0",
     "style-loader": "^0.23.0",
     "uglify-js-es6": "^2.8.9",
     "uglifyjs-webpack-plugin": "^2.0.1",
