@@ -51,7 +51,7 @@
     "webpack-dev-middleware": "^3.3.0",
     "webpack-dev-server": "^3.1.9",
     "travis-deploy-once": "^5.0.2",
-    "semantic-release": "^15.9.17"
+    "semantic-release": "^15.10.6"
   },
   "dependencies": {
     "react": "^16.6.0",
