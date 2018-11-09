@@ -17,6 +17,7 @@
   "repository": "https://github.com/mike-works/modern-javascript",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "devDependencies": {
+    "@mike-works/js-lib-renovate-config": "^2.0.0",
     "@mike-works/workshop-semantic-release-config": "^1.0.0",
     "@types/jest": "^23.3.2",
     "@types/react": "^16.4.18",
@@ -43,15 +44,15 @@
     "regenerator": "^0.13.2",
     "sass-loader": "^7.1.0",
     "scripty": "^1.8.0",
+    "semantic-release": "^15.10.6",
     "style-loader": "^0.23.1",
+    "travis-deploy-once": "^5.0.2",
     "uglify-js-es6": "^2.8.9",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.19.0",
     "webpack-bundle-analyzer": "^3.0.2",
     "webpack-dev-middleware": "^3.4.0",
-    "webpack-dev-server": "^3.1.9",
-    "travis-deploy-once": "^5.0.2",
-    "semantic-release": "^15.10.6"
+    "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
     "react": "^16.6.0",
