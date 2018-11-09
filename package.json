@@ -20,7 +20,7 @@
     "@mike-works/js-lib-renovate-config": "2.0.0",
     "@mike-works/workshop-semantic-release-config": "1.0.0",
     "@types/jest": "23.3.9",
-    "@types/react": "16.4.18",
+    "@types/react": "16.7.1",
     "@types/react-dom": "16.0.9",
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
