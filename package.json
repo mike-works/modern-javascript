@@ -41,7 +41,7 @@
     "jest-cli": "23.6.0",
     "node-fetch": "2.3.0",
     "node-sass": "4.10.0",
-    "regenerator": "0.13.2",
+    "regenerator": "0.13.3",
     "sass-loader": "7.1.0",
     "scripty": "1.8.0",
     "semantic-release": "15.10.8",

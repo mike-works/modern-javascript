@@ -8741,20 +8741,20 @@ regenerator-transform@^0.13.0, regenerator-transform@^0.13.3:
   dependencies:
     private "^0.1.6"
 
-regenerator@0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/regenerator/-/regenerator-0.13.2.tgz#6c164e9cbdf285816fbc064c2d5a5f7e90afdd3a"
-  integrity sha512-79ahXWnBxh1IV5LuY2yVPNOuajJyv/LevWYrMWG6hq6UNuiI7XGI9sdRhJy2TZdrl2OBhHPrawdsHBa3I15AnA==
+regenerator@0.13.3:
+  version "0.13.3"
+  resolved "https://registry.yarnpkg.com/regenerator/-/regenerator-0.13.3.tgz#bfc1195c175b4079d673bae267763abcb4500b8b"
+  integrity sha512-vePgoVGUgXfLBw4Z1hv8PTfmt7TW5dT/cMdq2GCdr3TYoPTE1WUU/KjiaZCOLD/JSyGWJMWhMRDYBLbpmVzkFw==
   dependencies:
-    "@babel/core" "^7.0.0-beta.51"
-    "@babel/runtime" "^7.0.0-beta.51"
-    "@babel/types" "^7.0.0-beta.51"
+    "@babel/core" "^7.1.6"
+    "@babel/runtime" "^7.1.5"
+    "@babel/types" "^7.1.6"
     commoner "^0.10.8"
-    private "^0.1.6"
-    recast "^0.11.17"
-    regenerator-preset "^0.12.0"
-    regenerator-runtime "^0.12.0"
-    regenerator-transform "^0.13.0"
+    private "^0.1.8"
+    recast "^0.16.0"
+    regenerator-preset "^0.12.1"
+    regenerator-runtime "^0.13.0"
+    regenerator-transform "^0.13.3"
     through "^2.3.8"
 
 regex-cache@^0.4.2:
