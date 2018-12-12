@@ -46,7 +46,7 @@
     "scripty": "1.8.0",
     "semantic-release": "15.12.5",
     "style-loader": "0.23.1",
-    "travis-deploy-once": "5.0.9",
+    "travis-deploy-once": "5.0.10",
     "uglify-js-es6": "2.8.9",
     "uglifyjs-webpack-plugin": "2.0.1",
     "webpack": "4.27.1",
