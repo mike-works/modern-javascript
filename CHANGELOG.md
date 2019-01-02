@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/mike-works/modern-javascript/compare/v1.0.3...v1.0.4) (2019-01-02)
+
+
+### Bug Fixes
+
+* add webpack-cli ([3eb47a4](https://github.com/mike-works/modern-javascript/commit/3eb47a4))
+
 ## [1.0.3](https://github.com/mike-works/modern-javascript/compare/v1.0.2...v1.0.3) (2018-12-20)
 
 
