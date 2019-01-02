@@ -14,6 +14,7 @@ module.exports = function webpackConfig(env) {
     entry: entries(env),
     context: EXERCISE_PATH,
     devtool: 'source-maps',
+    mode: 'development',
     output: {
       path: path.join(__dirname, 'dist'),
       filename: '[name].js',

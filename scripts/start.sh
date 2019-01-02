@@ -1,2 +1,2 @@
 #!/bin/bash
-node_modules/.bin/webpack-dev-server --colors --quiet --env $1
+node_modules/.bin/webpack-dev-server --colors --env $1
