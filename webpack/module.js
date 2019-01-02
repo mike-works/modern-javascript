@@ -1,4 +1,3 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const exercises = require('./exercises');
 
 module.exports = function generateWebpackModule(env) {
@@ -19,11 +18,7 @@ module.exports = function generateWebpackModule(env) {
       },
       {
         test: /\.scss$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          // resolve-url-loader may be chained before sass-loader if necessary
-          use: ['css-loader', 'sass-loader']
-        })
+        use: ['css-loader', 'sass-loader']
       }
     ]
   };
