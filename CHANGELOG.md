@@ -1,3 +1,11 @@
+## [1.0.5](https://github.com/mike-works/modern-javascript/compare/v1.0.4...v1.0.5) (2019-01-03)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([5055758](https://github.com/mike-works/modern-javascript/commit/5055758))
+* **deps:** update dependency css-loader to v2 ([f2b19c5](https://github.com/mike-works/modern-javascript/commit/f2b19c5))
+
 ## [1.0.4](https://github.com/mike-works/modern-javascript/compare/v1.0.3...v1.0.4) (2019-01-02)
 
 
