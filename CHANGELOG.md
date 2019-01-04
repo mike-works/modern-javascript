@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/mike-works/modern-javascript/compare/v1.0.7...v1.0.8) (2019-01-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-loader to v8.0.5 ([1fd6bb5](https://github.com/mike-works/modern-javascript/commit/1fd6bb5))
+
 ## [1.0.7](https://github.com/mike-works/modern-javascript/compare/v1.0.6...v1.0.7) (2019-01-03)
 
 
