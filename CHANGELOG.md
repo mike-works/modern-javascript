@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/mike-works/modern-javascript/compare/v1.0.11...v1.0.12) (2019-01-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@types](https://github.com/types)/jest to v23.3.12 ([ee45e07](https://github.com/mike-works/modern-javascript/commit/ee45e07))
+
 ## [1.0.11](https://github.com/mike-works/modern-javascript/compare/v1.0.10...v1.0.11) (2019-01-05)
 
 
