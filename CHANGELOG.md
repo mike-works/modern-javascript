@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/mike-works/modern-javascript/compare/v1.0.23...v1.0.24) (2019-01-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-plugin-module-resolver to v3.1.3 ([b9e8398](https://github.com/mike-works/modern-javascript/commit/b9e8398))
+
 ## [1.0.23](https://github.com/mike-works/modern-javascript/compare/v1.0.22...v1.0.23) (2019-01-20)
 
 
