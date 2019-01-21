@@ -19,7 +19,7 @@
   "dependencies": {
     "@babel/cli": "7.2.3",
     "@babel/core": "7.2.2",
-    "@babel/preset-env": "7.2.3",
+    "@babel/preset-env": "7.3.0",
     "@babel/preset-react": "7.0.0",
     "@babel/preset-stage-2": "7.0.0",
     "@mike-works/js-lib-renovate-config": "2.0.0",
