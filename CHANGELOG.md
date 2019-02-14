@@ -1,3 +1,10 @@
+## [1.0.48](https://github.com/mike-works/modern-javascript/compare/v1.0.47...v1.0.48) (2019-02-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@types](https://github.com/types)/react-dom to v16.8.1 ([2f79b92](https://github.com/mike-works/modern-javascript/commit/2f79b92))
+
 ## [1.0.47](https://github.com/mike-works/modern-javascript/compare/v1.0.46...v1.0.47) (2019-02-14)
 
 
