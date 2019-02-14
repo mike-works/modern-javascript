@@ -1,3 +1,10 @@
+## [1.0.47](https://github.com/mike-works/modern-javascript/compare/v1.0.46...v1.0.47) (2019-02-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.8.3 ([cbebedb](https://github.com/mike-works/modern-javascript/commit/cbebedb))
+
 ## [1.0.46](https://github.com/mike-works/modern-javascript/compare/v1.0.45...v1.0.46) (2019-02-12)
 
 
