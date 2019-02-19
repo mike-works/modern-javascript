@@ -1,3 +1,10 @@
+## [1.0.57](https://github.com/mike-works/modern-javascript/compare/v1.0.56...v1.0.57) (2019-02-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency scripty to v1.9.1 ([4b9fdc5](https://github.com/mike-works/modern-javascript/commit/4b9fdc5))
+
 ## [1.0.56](https://github.com/mike-works/modern-javascript/compare/v1.0.55...v1.0.56) (2019-02-19)
 
 
