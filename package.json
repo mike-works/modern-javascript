@@ -47,7 +47,7 @@
     "regenerator": "0.13.3",
     "regenerator-runtime": "0.13.1",
     "sass-loader": "7.1.0",
-    "scripty": "1.9.0",
+    "scripty": "1.9.1",
     "semantic-release": "15.13.3",
     "style-loader": "0.23.1",
     "travis-deploy-once": "5.0.11",
