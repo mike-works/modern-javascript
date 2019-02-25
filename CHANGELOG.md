@@ -1,3 +1,10 @@
+## [1.0.62](https://github.com/mike-works/modern-javascript/compare/v1.0.61...v1.0.62) (2019-02-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency uglifyjs-webpack-plugin to v2.1.2 ([3cd8c4a](https://github.com/mike-works/modern-javascript/commit/3cd8c4a))
+
 ## [1.0.61](https://github.com/mike-works/modern-javascript/compare/v1.0.60...v1.0.61) (2019-02-25)
 
 
