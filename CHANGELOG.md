@@ -1,3 +1,13 @@
+## [1.0.71](https://github.com/mike-works/modern-javascript/compare/v1.0.70...v1.0.71) (2019-03-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.8.7 ([6af9b41](https://github.com/mike-works/modern-javascript/commit/6af9b41))
+* **deps:** update dependency css-loader to v2.1.1 ([bbd5d9b](https://github.com/mike-works/modern-javascript/commit/bbd5d9b))
+* **deps:** update dependency webpack-dev-middleware to v3.6.1 ([7e22ecb](https://github.com/mike-works/modern-javascript/commit/7e22ecb))
+* **deps:** update jest monorepo to v24.3.0 ([951f673](https://github.com/mike-works/modern-javascript/commit/951f673))
+
 ## [1.0.70](https://github.com/mike-works/modern-javascript/compare/v1.0.69...v1.0.70) (2019-03-06)
 
 
