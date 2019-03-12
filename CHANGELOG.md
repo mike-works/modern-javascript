@@ -1,3 +1,10 @@
+## [1.0.74](https://github.com/mike-works/modern-javascript/compare/v1.0.73...v1.0.74) (2019-03-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-jest to v24.5.0 ([4e5236b](https://github.com/mike-works/modern-javascript/commit/4e5236b))
+
 ## [1.0.73](https://github.com/mike-works/modern-javascript/compare/v1.0.72...v1.0.73) (2019-03-11)
 
 
