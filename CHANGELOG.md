@@ -1,3 +1,10 @@
+## [1.0.79](https://github.com/mike-works/modern-javascript/compare/v1.0.78...v1.0.79) (2019-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v5.15.3 ([3e6e96a](https://github.com/mike-works/modern-javascript/commit/3e6e96a))
+
 ## [1.0.78](https://github.com/mike-works/modern-javascript/compare/v1.0.77...v1.0.78) (2019-03-18)
 
 
