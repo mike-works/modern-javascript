@@ -32,7 +32,7 @@
     "babel-jest": "24.5.0",
     "babel-loader": "8.0.5",
     "babel-plugin-module-resolver": "3.2.0",
-    "compression": "1.7.3",
+    "compression": "1.7.4",
     "compression-webpack-plugin": "2.0.0",
     "css-loader": "2.1.1",
     "eslint": "5.15.2",
