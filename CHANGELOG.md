@@ -1,3 +1,10 @@
+## [1.0.78](https://github.com/mike-works/modern-javascript/compare/v1.0.77...v1.0.78) (2019-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency compression to v1.7.4 ([2e4ac8f](https://github.com/mike-works/modern-javascript/commit/2e4ac8f))
+
 ## [1.0.77](https://github.com/mike-works/modern-javascript/compare/v1.0.76...v1.0.77) (2019-03-15)
 
 
