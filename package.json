@@ -45,7 +45,7 @@
     "react": "16.8.4",
     "react-dom": "16.8.4",
     "regenerator": "0.13.3",
-    "regenerator-runtime": "0.13.1",
+    "regenerator-runtime": "0.13.2",
     "sass-loader": "7.1.0",
     "scripty": "1.9.1",
     "semantic-release": "15.13.3",
