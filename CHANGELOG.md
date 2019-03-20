@@ -1,3 +1,10 @@
+## [1.0.82](https://github.com/mike-works/modern-javascript/compare/v1.0.81...v1.0.82) (2019-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency regenerator-runtime to v0.13.2 ([4ebbc7e](https://github.com/mike-works/modern-javascript/commit/4ebbc7e))
+
 ## [1.0.81](https://github.com/mike-works/modern-javascript/compare/v1.0.80...v1.0.81) (2019-03-20)
 
 
