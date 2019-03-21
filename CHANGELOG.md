@@ -1,3 +1,10 @@
+## [1.0.84](https://github.com/mike-works/modern-javascript/compare/v1.0.83...v1.0.84) (2019-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@babel](https://github.com/babel)/preset-env to v7.4.2 ([1323fa5](https://github.com/mike-works/modern-javascript/commit/1323fa5))
+
 ## [1.0.83](https://github.com/mike-works/modern-javascript/compare/v1.0.82...v1.0.83) (2019-03-21)
 
 
