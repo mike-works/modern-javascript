@@ -1,3 +1,10 @@
+## [1.0.90](https://github.com/mike-works/modern-javascript/compare/v1.0.89...v1.0.90) (2019-04-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@babel](https://github.com/babel)/cli to v7.4.3 ([7110d6b](https://github.com/mike-works/modern-javascript/commit/7110d6b))
+
 ## [1.0.89](https://github.com/mike-works/modern-javascript/compare/v1.0.88...v1.0.89) (2019-04-02)
 
 
