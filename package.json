@@ -17,7 +17,7 @@
   "repository": "https://github.com/mike-works/modern-javascript",
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "dependencies": {
-    "@babel/cli": "7.2.3",
+    "@babel/cli": "7.4.3",
     "@babel/core": "7.4.3",
     "@babel/preset-env": "7.4.3",
     "@babel/preset-react": "7.0.0",
