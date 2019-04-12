@@ -1,3 +1,10 @@
+## [1.0.103](https://github.com/mike-works/modern-javascript/compare/v1.0.102...v1.0.103) (2019-04-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack to v4.30.0 ([11ea7f3](https://github.com/mike-works/modern-javascript/commit/11ea7f3))
+
 ## [1.0.102](https://github.com/mike-works/modern-javascript/compare/v1.0.101...v1.0.102) (2019-04-11)
 
 
