@@ -1,3 +1,10 @@
+## [1.0.106](https://github.com/mike-works/modern-javascript/compare/v1.0.105...v1.0.106) (2019-04-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-sass to v4.12.0 ([be1c528](https://github.com/mike-works/modern-javascript/commit/be1c528))
+
 ## [1.0.105](https://github.com/mike-works/modern-javascript/compare/v1.0.104...v1.0.105) (2019-04-21)
 
 
