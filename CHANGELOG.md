@@ -1,3 +1,10 @@
+## [1.0.109](https://github.com/mike-works/modern-javascript/compare/v1.0.108...v1.0.109) (2019-04-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.8.15 ([ee26903](https://github.com/mike-works/modern-javascript/commit/ee26903))
+
 ## [1.0.108](https://github.com/mike-works/modern-javascript/compare/v1.0.107...v1.0.108) (2019-04-27)
 
 
