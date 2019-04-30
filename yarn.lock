@@ -9081,7 +9081,7 @@ regenerator-preset@^0.12.1:
     "@babel/plugin-transform-for-of" "^7.0.0-beta.51"
     regenerator-transform "^0.13.0"
 
-regenerator-runtime@0.13.2:
+regenerator-runtime@0.13.2, regenerator-runtime@^0.13.2:
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
   integrity sha512-S/TQAZJO+D3m9xeN1WTI8dLKBBiRgXBlTJvbWjCThHWZj9EvHK70Ff50/tYj2J/fvBY6JtFVwRuazHN2E7M9BA==
@@ -9095,11 +9095,6 @@ regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
-
-regenerator-runtime@^0.13.0:
-  version "0.13.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.1.tgz#522ea2aafd9200a00eee143dc14219a35a0f3991"
-  integrity sha512-5KzMIyPLvfdPmvsdlYsHqITrDfK9k7bmvf97HvHSN4810i254ponbxCQ1NukpRWlu6en2MBWzAlhDExEKISwAA==
 
 regenerator-transform@^0.13.0, regenerator-transform@^0.13.3:
   version "0.13.3"
@@ -9115,10 +9110,10 @@ regenerator-transform@^0.13.4:
   dependencies:
     private "^0.1.6"
 
-regenerator@0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/regenerator/-/regenerator-0.13.3.tgz#bfc1195c175b4079d673bae267763abcb4500b8b"
-  integrity sha512-vePgoVGUgXfLBw4Z1hv8PTfmt7TW5dT/cMdq2GCdr3TYoPTE1WUU/KjiaZCOLD/JSyGWJMWhMRDYBLbpmVzkFw==
+regenerator@0.13.4:
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/regenerator/-/regenerator-0.13.4.tgz#7df86a9797ba6e12a2e3b3c9de66d9d1a47c2a9a"
+  integrity sha512-6r2lqy4F45fHnA807oZKaQFhu0LP7PuQyetorabM7m/f2EUp/TOZg4RYGy8HmvZhDD3b4evHQYNz7TcR5UHrGA==
   dependencies:
     "@babel/core" "^7.1.6"
     "@babel/runtime" "^7.1.5"
@@ -9127,7 +9122,7 @@ regenerator@0.13.3:
     private "^0.1.8"
     recast "^0.16.0"
     regenerator-preset "^0.12.1"
-    regenerator-runtime "^0.13.0"
+    regenerator-runtime "^0.13.2"
     regenerator-transform "^0.13.3"
     through "^2.3.8"
 

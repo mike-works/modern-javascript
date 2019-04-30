@@ -44,7 +44,7 @@
     "node-sass": "4.12.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "regenerator": "0.13.3",
+    "regenerator": "0.13.4",
     "regenerator-runtime": "0.13.2",
     "sass-loader": "7.1.0",
     "scripty": "1.9.1",
