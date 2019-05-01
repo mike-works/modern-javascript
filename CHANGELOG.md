@@ -1,3 +1,10 @@
+## [1.0.112](https://github.com/mike-works/modern-javascript/compare/v1.0.111...v1.0.112) (2019-05-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency node-fetch to v2.5.0 ([53bb098](https://github.com/mike-works/modern-javascript/commit/53bb098))
+
 ## [1.0.111](https://github.com/mike-works/modern-javascript/compare/v1.0.110...v1.0.111) (2019-05-01)
 
 
