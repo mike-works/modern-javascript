@@ -1,3 +1,10 @@
+## [1.0.110](https://github.com/mike-works/modern-javascript/compare/v1.0.109...v1.0.110) (2019-05-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency regenerator to v0.13.4 ([9eee250](https://github.com/mike-works/modern-javascript/commit/9eee250))
+
 ## [1.0.109](https://github.com/mike-works/modern-javascript/compare/v1.0.108...v1.0.109) (2019-04-29)
 
 
