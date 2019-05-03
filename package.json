@@ -37,7 +37,7 @@
     "css-loader": "2.1.1",
     "eslint": "5.16.0",
     "eslint-loader": "2.1.2",
-    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react": "7.13.0",
     "jest": "24.7.1",
     "jest-cli": "24.7.1",
     "node-fetch": "2.5.0",
