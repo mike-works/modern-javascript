@@ -1,3 +1,10 @@
+## [1.0.134](https://github.com/mike-works/modern-javascript/compare/v1.0.133...v1.0.134) (2019-06-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack to v4.33.0 ([c73d6d7](https://github.com/mike-works/modern-javascript/commit/c73d6d7))
+
 ## [1.0.133](https://github.com/mike-works/modern-javascript/compare/v1.0.132...v1.0.133) (2019-06-01)
 
 
