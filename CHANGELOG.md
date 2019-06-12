@@ -1,3 +1,10 @@
+## [1.0.141](https://github.com/mike-works/modern-javascript/compare/v1.0.140...v1.0.141) (2019-06-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release to v15.13.16 ([94e0571](https://github.com/mike-works/modern-javascript/commit/94e0571))
+
 ## [1.0.140](https://github.com/mike-works/modern-javascript/compare/v1.0.139...v1.0.140) (2019-06-11)
 
 
