@@ -1,3 +1,10 @@
+## [1.0.145](https://github.com/mike-works/modern-javascript/compare/v1.0.144...v1.0.145) (2019-06-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack-dev-server to v3.7.2 ([74d5a78](https://github.com/mike-works/modern-javascript/commit/74d5a78))
+
 ## [1.0.144](https://github.com/mike-works/modern-javascript/compare/v1.0.143...v1.0.144) (2019-06-17)
 
 
