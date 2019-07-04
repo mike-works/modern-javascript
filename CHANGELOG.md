@@ -1,3 +1,10 @@
+## [1.0.158](https://github.com/mike-works/modern-javascript/compare/v1.0.157...v1.0.158) (2019-07-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-loader to v2.2.1 ([9a5e360](https://github.com/mike-works/modern-javascript/commit/9a5e360))
+
 ## [1.0.157](https://github.com/mike-works/modern-javascript/compare/v1.0.156...v1.0.157) (2019-07-03)
 
 
