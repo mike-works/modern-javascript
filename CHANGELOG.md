@@ -1,3 +1,10 @@
+## [1.0.167](https://github.com/mike-works/modern-javascript/compare/v1.0.166...v1.0.167) (2019-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.5.5 ([b4200f4](https://github.com/mike-works/modern-javascript/commit/b4200f4))
+
 ## [1.0.166](https://github.com/mike-works/modern-javascript/compare/v1.0.165...v1.0.166) (2019-07-17)
 
 
