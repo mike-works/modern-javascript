@@ -1,3 +1,10 @@
+## [1.0.184](https://github.com/mike-works/modern-javascript/compare/v1.0.183...v1.0.184) (2019-08-08)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v16.9.0 ([75e8823](https://github.com/mike-works/modern-javascript/commit/75e8823))
+
 ## [1.0.183](https://github.com/mike-works/modern-javascript/compare/v1.0.182...v1.0.183) (2019-08-07)
 
 
