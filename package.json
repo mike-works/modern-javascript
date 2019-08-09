@@ -57,7 +57,7 @@
     "webpack-bundle-analyzer": "3.4.1",
     "webpack-cli": "3.3.6",
     "webpack-dev-middleware": "3.7.0",
-    "webpack-dev-server": "3.7.2"
+    "webpack-dev-server": "3.8.0"
   },
   "release": {
     "extends": "@mike-works/workshop-semantic-release-config"
