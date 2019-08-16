@@ -1,3 +1,10 @@
+## [1.0.192](https://github.com/mike-works/modern-javascript/compare/v1.0.191...v1.0.192) (2019-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update jest monorepo to v24.9.0 ([f603070](https://github.com/mike-works/modern-javascript/commit/f603070))
+
 ## [1.0.191](https://github.com/mike-works/modern-javascript/compare/v1.0.190...v1.0.191) (2019-08-16)
 
 
