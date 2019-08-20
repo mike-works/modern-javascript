@@ -1,3 +1,10 @@
+## [1.0.195](https://github.com/mike-works/modern-javascript/compare/v1.0.194...v1.0.195) (2019-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sass-loader to v7.3.1 ([b94d43a](https://github.com/mike-works/modern-javascript/commit/b94d43a))
+
 ## [1.0.194](https://github.com/mike-works/modern-javascript/compare/v1.0.193...v1.0.194) (2019-08-19)
 
 
