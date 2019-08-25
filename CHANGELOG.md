@@ -1,3 +1,10 @@
+## [1.0.197](https://github.com/mike-works/modern-javascript/compare/v1.0.196...v1.0.197) (2019-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency babel-eslint to v10.0.3 ([bd5dbce](https://github.com/mike-works/modern-javascript/commit/bd5dbce))
+
 ## [1.0.196](https://github.com/mike-works/modern-javascript/compare/v1.0.195...v1.0.196) (2019-08-22)
 
 
