@@ -1,3 +1,10 @@
+## [1.0.199](https://github.com/mike-works/modern-javascript/compare/v1.0.198...v1.0.199) (2019-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack-dev-middleware to v3.7.1 ([97fda3b](https://github.com/mike-works/modern-javascript/commit/97fda3b))
+
 ## [1.0.198](https://github.com/mike-works/modern-javascript/compare/v1.0.197...v1.0.198) (2019-08-27)
 
 
