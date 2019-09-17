@@ -1,3 +1,10 @@
+## [1.0.207](https://github.com/mike-works/modern-javascript/compare/v1.0.206...v1.0.207) (2019-09-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack-cli to v3.3.9 ([fbfc72a](https://github.com/mike-works/modern-javascript/commit/fbfc72a))
+
 ## [1.0.206](https://github.com/mike-works/modern-javascript/compare/v1.0.205...v1.0.206) (2019-09-16)
 
 
