@@ -1,3 +1,10 @@
+## [1.0.208](https://github.com/mike-works/modern-javascript/compare/v1.0.207...v1.0.208) (2019-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack-bundle-analyzer to v3.5.1 ([57d442c](https://github.com/mike-works/modern-javascript/commit/57d442c))
+
 ## [1.0.207](https://github.com/mike-works/modern-javascript/compare/v1.0.206...v1.0.207) (2019-09-17)
 
 
