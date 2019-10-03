@@ -1,3 +1,10 @@
+## [1.0.222](https://github.com/mike-works/modern-javascript/compare/v1.0.221...v1.0.222) (2019-10-03)
+
+
+### Bug Fixes
+
+* **deps:** update react monorepo to v16.10.2 ([cf9cb95](https://github.com/mike-works/modern-javascript/commit/cf9cb95))
+
 ## [1.0.221](https://github.com/mike-works/modern-javascript/compare/v1.0.220...v1.0.221) (2019-10-02)
 
 
