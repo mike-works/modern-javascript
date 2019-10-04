@@ -1,3 +1,10 @@
+## [1.0.224](https://github.com/mike-works/modern-javascript/compare/v1.0.223...v1.0.224) (2019-10-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.16.0 ([3dcda3e](https://github.com/mike-works/modern-javascript/commit/3dcda3e))
+
 ## [1.0.223](https://github.com/mike-works/modern-javascript/compare/v1.0.222...v1.0.223) (2019-10-04)
 
 
