@@ -1,3 +1,10 @@
+## [1.0.226](https://github.com/mike-works/modern-javascript/compare/v1.0.225...v1.0.226) (2019-10-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@babel](https://github.com/babel)/preset-react to v7.6.3 ([7eea410](https://github.com/mike-works/modern-javascript/commit/7eea410))
+
 ## [1.0.225](https://github.com/mike-works/modern-javascript/compare/v1.0.224...v1.0.225) (2019-10-08)
 
 
