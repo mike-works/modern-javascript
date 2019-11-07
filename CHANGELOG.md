@@ -1,3 +1,10 @@
+## [1.0.248](https://github.com/mike-works/modern-javascript/compare/v1.0.247...v1.0.248) (2019-11-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@babel](https://github.com/babel)/core to v7.7.2 ([2b9d2e2](https://github.com/mike-works/modern-javascript/commit/2b9d2e2))
+
 ## [1.0.247](https://github.com/mike-works/modern-javascript/compare/v1.0.246...v1.0.247) (2019-11-05)
 
 
