@@ -1,3 +1,10 @@
+## [1.0.276](https://github.com/mike-works/modern-javascript/compare/v1.0.275...v1.0.276) (2020-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency css-loader to v3.4.2 ([c25113d](https://github.com/mike-works/modern-javascript/commit/c25113d))
+
 ## [1.0.275](https://github.com/mike-works/modern-javascript/compare/v1.0.274...v1.0.275) (2020-01-03)
 
 
