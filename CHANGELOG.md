@@ -1,3 +1,10 @@
+## [1.0.285](https://github.com/mike-works/modern-javascript/compare/v1.0.284...v1.0.285) (2020-01-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack-dev-server to v3.10.2 ([23c42a0](https://github.com/mike-works/modern-javascript/commit/23c42a0))
+
 ## [1.0.284](https://github.com/mike-works/modern-javascript/compare/v1.0.283...v1.0.284) (2020-01-30)
 
 
