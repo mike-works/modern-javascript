@@ -10460,18 +10460,17 @@ regenerator-transform@^0.14.2:
     "@babel/runtime" "^7.8.4"
     private "^0.1.8"
 
-regenerator-transform@^0.14.3:
-  version "0.14.3"
-  resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.14.3.tgz#54aebff2ef58c0ae61e695ad1b9a9d65995fff78"
-  integrity sha512-zXHNKJspmONxBViAb3ZUmFoFPnTBs3zFhCEZJiwp/gkNzxVbTqNJVjYKx6Qk1tQ1P4XLf4TbH9+KBB7wGoAaUw==
+regenerator-transform@^0.14.5:
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/regenerator-transform/-/regenerator-transform-0.14.5.tgz#c98da154683671c9c4dcb16ece736517e1b7feb4"
+  integrity sha512-eOf6vka5IO151Jfsw2NO9WpGX58W6wWmefK3I1zEGr0lOD0u8rwPaNqQL1aRxUaxLeKO3ArNh3VYg1KbaD+FFw==
   dependencies:
     "@babel/runtime" "^7.8.4"
-    private "^0.1.8"
 
-regenerator@0.14.4:
-  version "0.14.4"
-  resolved "https://registry.yarnpkg.com/regenerator/-/regenerator-0.14.4.tgz#1ed198261a9774d4af729ce81c9b002c46813ea0"
-  integrity sha512-tNenMX47LtNjpUmHMPLUctbkNNEp0sMhvnHmoa3NzWFQf678d9dnO6TLGHiZ3Cnr1Hk3WUcugsCXvS8q8UaTLg==
+regenerator@0.14.5:
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/regenerator/-/regenerator-0.14.5.tgz#4a8cda37c8d57746cbc21467bb33fe662db73c62"
+  integrity sha512-Q5xDvDArtixFyXzbrnhPHuGPKnn9RVBu53MTL1AWWW5iM9bVvu2rMJIX2JVBSjyQpnZqtlf/HhJkwJvkyVOsWg==
   dependencies:
     "@babel/core" "^7.8.4"
     "@babel/runtime" "^7.8.4"
@@ -10481,7 +10480,7 @@ regenerator@0.14.4:
     recast "^0.18.7"
     regenerator-preset "^0.13.2"
     regenerator-runtime "^0.13.5"
-    regenerator-transform "^0.14.3"
+    regenerator-transform "^0.14.5"
     through "^2.3.8"
 
 regex-not@^1.0.0, regex-not@^1.0.2:
