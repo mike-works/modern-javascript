@@ -1,3 +1,42 @@
+## [1.0.315](https://github.com/mike-works/modern-javascript/compare/v1.0.314...v1.0.315) (2020-07-14)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo ([794cf83](https://github.com/mike-works/modern-javascript/commit/794cf83))
+* **deps:** update babel monorepo to v7.10.0 ([e8f010f](https://github.com/mike-works/modern-javascript/commit/e8f010f))
+* **deps:** update babel monorepo to v7.10.1 ([0268601](https://github.com/mike-works/modern-javascript/commit/0268601))
+* **deps:** update babel monorepo to v7.10.2 ([15cc65f](https://github.com/mike-works/modern-javascript/commit/15cc65f))
+* **deps:** update babel monorepo to v7.10.3 ([23bb35b](https://github.com/mike-works/modern-javascript/commit/23bb35b))
+* **deps:** update babel monorepo to v7.10.4 ([0fdfcc9](https://github.com/mike-works/modern-javascript/commit/0fdfcc9))
+* **deps:** update babel monorepo to v7.10.5 ([cb467f2](https://github.com/mike-works/modern-javascript/commit/cb467f2))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.33 ([99e1ab7](https://github.com/mike-works/modern-javascript/commit/99e1ab7))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.34 ([4b51bf1](https://github.com/mike-works/modern-javascript/commit/4b51bf1))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.35 ([3495909](https://github.com/mike-works/modern-javascript/commit/3495909))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.36 ([5252a09](https://github.com/mike-works/modern-javascript/commit/5252a09))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.37 ([96d488b](https://github.com/mike-works/modern-javascript/commit/96d488b))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.38 ([88de939](https://github.com/mike-works/modern-javascript/commit/88de939))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.41 ([27f0ebd](https://github.com/mike-works/modern-javascript/commit/27f0ebd))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.42 ([b1303d8](https://github.com/mike-works/modern-javascript/commit/b1303d8))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.43 ([1a4511b](https://github.com/mike-works/modern-javascript/commit/1a4511b))
+* **deps:** update dependency [@types](https://github.com/types)/react-dom to v16.9.7 ([06c84c2](https://github.com/mike-works/modern-javascript/commit/06c84c2))
+* **deps:** update dependency [@types](https://github.com/types)/react-dom to v16.9.8 ([9b325db](https://github.com/mike-works/modern-javascript/commit/9b325db))
+* **deps:** update dependency css-loader to v3.5.2 ([b5e6253](https://github.com/mike-works/modern-javascript/commit/b5e6253))
+* **deps:** update dependency css-loader to v3.5.3 ([f20e2ac](https://github.com/mike-works/modern-javascript/commit/f20e2ac))
+* **deps:** update dependency css-loader to v3.6.0 ([c5fb0d3](https://github.com/mike-works/modern-javascript/commit/c5fb0d3))
+* **deps:** update dependency eslint-plugin-react to v7.20.0 ([f1030d2](https://github.com/mike-works/modern-javascript/commit/f1030d2))
+* **deps:** update dependency eslint-plugin-react to v7.20.1 ([019c94d](https://github.com/mike-works/modern-javascript/commit/019c94d))
+* **deps:** update dependency eslint-plugin-react to v7.20.2 ([ff5d3d4](https://github.com/mike-works/modern-javascript/commit/ff5d3d4))
+* **deps:** update dependency eslint-plugin-react to v7.20.3 ([c4524d0](https://github.com/mike-works/modern-javascript/commit/c4524d0))
+* **deps:** update dependency node-sass to v4.14.0 ([54f56d3](https://github.com/mike-works/modern-javascript/commit/54f56d3))
+* **deps:** update dependency node-sass to v4.14.1 ([a956813](https://github.com/mike-works/modern-javascript/commit/a956813))
+* **deps:** update dependency regenerator to v0.14.5 ([b7f1b0b](https://github.com/mike-works/modern-javascript/commit/b7f1b0b))
+* **deps:** update dependency webpack to v4.43.0 ([11cac09](https://github.com/mike-works/modern-javascript/commit/11cac09))
+* **deps:** update dependency webpack-bundle-analyzer to v3.7.0 ([88e0633](https://github.com/mike-works/modern-javascript/commit/88e0633))
+* **deps:** update dependency webpack-bundle-analyzer to v3.8.0 ([695535b](https://github.com/mike-works/modern-javascript/commit/695535b))
+* **deps:** update dependency webpack-cli to v3.3.12 ([2860647](https://github.com/mike-works/modern-javascript/commit/2860647))
+* **deps:** update dependency webpack-dev-server to v3.11.0 ([ddb01ba](https://github.com/mike-works/modern-javascript/commit/ddb01ba))
+
 ## [1.0.314](https://github.com/mike-works/modern-javascript/compare/v1.0.313...v1.0.314) (2020-04-07)
 
 
