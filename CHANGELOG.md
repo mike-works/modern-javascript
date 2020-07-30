@@ -1,3 +1,10 @@
+## [1.0.323](https://github.com/mike-works/modern-javascript/compare/v1.0.322...v1.0.323) (2020-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency webpack to v4.44.1 ([facaac4](https://github.com/mike-works/modern-javascript/commit/facaac4))
+
 ## [1.0.322](https://github.com/mike-works/modern-javascript/compare/v1.0.321...v1.0.322) (2020-07-28)
 
 
