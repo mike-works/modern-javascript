@@ -1,3 +1,10 @@
+## [1.0.329](https://github.com/mike-works/modern-javascript/compare/v1.0.328...v1.0.329) (2020-08-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@babel](https://github.com/babel)/core to v7.11.4 ([48b0744](https://github.com/mike-works/modern-javascript/commit/48b0744))
+
 ## [1.0.328](https://github.com/mike-works/modern-javascript/compare/v1.0.327...v1.0.328) (2020-08-12)
 
 
