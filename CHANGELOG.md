@@ -1,3 +1,10 @@
+## [1.0.333](https://github.com/mike-works/modern-javascript/compare/v1.0.332...v1.0.333) (2020-08-31)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.11.5 ([8247737](https://github.com/mike-works/modern-javascript/commit/8247737))
+
 ## [1.0.332](https://github.com/mike-works/modern-javascript/compare/v1.0.331...v1.0.332) (2020-08-31)
 
 
