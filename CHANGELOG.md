@@ -1,3 +1,10 @@
+## [1.0.332](https://github.com/mike-works/modern-javascript/compare/v1.0.331...v1.0.332) (2020-08-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.49 ([cada566](https://github.com/mike-works/modern-javascript/commit/cada566))
+
 ## [1.0.331](https://github.com/mike-works/modern-javascript/compare/v1.0.330...v1.0.331) (2020-08-26)
 
 
