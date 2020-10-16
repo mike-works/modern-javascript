@@ -1,3 +1,10 @@
+## [1.0.349](https://github.com/mike-works/modern-javascript/compare/v1.0.348...v1.0.349) (2020-10-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@babel](https://github.com/babel)/preset-react to v7.12.1 ([449672b](https://github.com/mike-works/modern-javascript/commit/449672b))
+
 ## [1.0.348](https://github.com/mike-works/modern-javascript/compare/v1.0.347...v1.0.348) (2020-10-15)
 
 
