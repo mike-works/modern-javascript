@@ -1,3 +1,11 @@
+## [1.0.350](https://github.com/mike-works/modern-javascript/compare/v1.0.349...v1.0.350) (2020-10-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency [@babel](https://github.com/babel)/core to v7.12.3 ([e7edb7c](https://github.com/mike-works/modern-javascript/commit/e7edb7c))
+* **deps:** update dependency [@types](https://github.com/types)/react to v16.9.53 ([f567da0](https://github.com/mike-works/modern-javascript/commit/f567da0))
+
 ## [1.0.349](https://github.com/mike-works/modern-javascript/compare/v1.0.348...v1.0.349) (2020-10-16)
 
 
