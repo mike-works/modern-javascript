@@ -40,7 +40,7 @@
     "eslint-plugin-react": "7.27.1",
     "jest": "24.9.0",
     "jest-cli": "24.9.0",
-    "node-fetch": "2.6.6",
+    "node-fetch": "2.6.7",
     "node-sass": "4.14.1",
     "react": "16.14.0",
     "react-dom": "16.14.0",
