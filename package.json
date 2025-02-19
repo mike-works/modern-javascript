@@ -18,8 +18,8 @@
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "dependencies": {
     "@babel/cli": "7.24.8",
-    "@babel/core": "7.25.2",
-    "@babel/preset-env": "7.25.3",
+    "@babel/core": "7.25.9",
+    "@babel/preset-env": "7.25.9",
     "@babel/preset-react": "7.24.7",
     "@babel/preset-stage-2": "7.8.3",
     "@mike-works/js-lib-renovate-config": "2.0.0",
