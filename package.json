@@ -36,7 +36,7 @@
     "compression-webpack-plugin": "2.0.0",
     "css-loader": "3.6.0",
     "eslint": "5.16.0",
-    "eslint-loader": "2.2.1",
+    "eslint-loader": "4.0.2",
     "eslint-plugin-react": "7.37.4",
     "jest": "24.9.0",
     "jest-cli": "24.9.0",
